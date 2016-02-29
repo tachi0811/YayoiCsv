@@ -1,0 +1,4953 @@
+<?xml version="1.0" standalone="yes"?>
+<ShiwakeDs xmlns="http://tempuri.org/ShiwakeInputGridDs.xsd">
+  <Shiwake>
+    <No>1</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0624</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>2</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0625</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>3</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0626</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>4</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0629</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>5</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0630</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>6</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0701</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>7</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0702</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>8</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0703</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>9</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0706</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>10</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0707</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>11</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0212</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>12</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0708</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>13</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0709</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>14</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0710</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>15</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0713</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>16</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0714</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>17</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0715</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>18</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0716</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>19</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0717</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>20</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0721</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>21</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0722</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>22</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0213</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>23</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0723</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>24</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0724</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>25</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0727</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>26</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0728</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>27</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0729</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>28</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0730</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>29</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0731</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>30</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0803</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>31</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0804</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>32</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0805</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>33</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0216</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>34</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0806</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>35</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0807</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>36</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0810</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>37</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0811</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>38</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0812</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>39</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0813</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>40</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0814</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>41</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0817</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>42</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0818</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>43</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0819</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>44</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0217</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>45</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0820</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>46</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0821</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>47</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0824</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>48</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0825</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>49</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0826</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>50</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0827</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>51</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0828</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>52</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0831</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>53</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0901</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>54</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0902</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>55</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0218</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>56</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0903</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>57</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0904</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>58</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0907</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>59</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0908</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>60</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0909</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>61</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0910</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>62</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0911</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>63</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0914</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>64</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0915</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>65</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0916</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>66</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0219</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>67</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0917</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>68</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0918</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>69</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0924</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>70</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0925</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>71</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0928</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>72</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0929</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>73</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0930</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>74</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1001</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>75</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1002</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>76</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1005</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>77</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0220</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>78</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1006</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>79</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1007</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>80</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1008</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>81</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1009</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>82</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1013</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>83</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1014</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>84</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1015</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>85</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1016</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>86</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1019</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>87</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1020</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>88</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0223</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>89</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1021</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>90</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1022</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>91</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1023</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>92</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1026</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>93</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1027</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>94</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1028</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>95</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1029</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>96</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1030</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>97</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1102</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>98</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1104</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>99</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0224</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>100</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1105</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>101</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1106</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>102</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1109</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>103</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1110</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>104</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1111</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>105</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1112</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>106</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1113</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>107</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1116</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>108</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1117</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>109</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1118</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>110</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0225</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>111</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0129</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>112</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1119</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>113</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1120</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>114</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1124</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>115</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1125</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>116</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1126</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>117</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1127</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>118</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1130</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>119</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1201</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>120</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1202</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>121</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1203</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>122</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0226</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>123</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1204</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>124</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1207</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>125</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1208</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>126</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1209</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>127</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1210</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>128</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1211</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>129</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1214</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>130</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1215</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>131</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1216</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>132</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1217</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>133</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0227</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>134</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1218</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>135</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1221</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>136</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1222</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>137</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1224</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>138</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1225</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>139</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>1228</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>140</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0129</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>141</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0130</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>142</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0202</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>143</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0203</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>144</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0302</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>145</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0204</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>146</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0205</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>147</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0206</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>148</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0209</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>149</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0210</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>150</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0212</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>151</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0213</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>152</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0216</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>153</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0217</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>154</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0218</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>155</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0303</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>156</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0219</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>157</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0220</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>158</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0223</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>159</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0224</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>160</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0225</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>161</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0226</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>162</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0227</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>163</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0302</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>164</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0303</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>165</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0304</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>166</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0304</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>167</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0305</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>168</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0306</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>169</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0309</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>170</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0310</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>171</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0311</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>172</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0312</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>173</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0313</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>174</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0316</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>175</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0317</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>176</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0318</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>177</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0305</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>178</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0319</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>179</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0320</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>180</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0323</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>181</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0324</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>182</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0325</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>183</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0326</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>184</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0327</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>185</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0330</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>186</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0331</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>187</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0401</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>188</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0306</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>189</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0402</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>190</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0403</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>191</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0406</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>192</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0407</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>193</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0408</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>194</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0409</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>195</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0410</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>196</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0413</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>197</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0414</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>198</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0415</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>199</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0309</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>200</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0416</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>201</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0417</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>202</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0420</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>203</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0421</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>204</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0422</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>205</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0423</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>206</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0424</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>207</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0427</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>208</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0428</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>209</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0430</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>210</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0310</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>211</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0501</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>212</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0507</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>213</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0508</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>214</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0511</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>215</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0512</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>216</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0513</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>217</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0514</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>218</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0515</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>219</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0518</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>220</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0519</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>221</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0311</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>222</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0130</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>223</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0520</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>224</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0521</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>225</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0522</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>226</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0525</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>227</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0526</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>228</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0527</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>229</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0528</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>230</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0529</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>231</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0601</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>232</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0602</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>233</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0312</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>234</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0603</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>235</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0604</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>236</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0605</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>237</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0608</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>238</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0609</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>239</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0610</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>240</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0611</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>241</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0612</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>242</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0615</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>243</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0616</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>244</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0313</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>245</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0617</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>246</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0618</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>247</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0619</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>248</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0622</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>249</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0623</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>250</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0624</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>251</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0625</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>252</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0626</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>253</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0629</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>254</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0630</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>255</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0316</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>256</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0701</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>257</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0702</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>258</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0703</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>259</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0706</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>260</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0707</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>261</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0708</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>262</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0709</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>263</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0710</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>264</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0713</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>265</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0714</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>266</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0317</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>267</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0715</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>268</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0716</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>269</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0717</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>270</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0721</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>271</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0722</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>272</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0723</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>273</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0724</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>274</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0727</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>275</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0728</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>276</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0729</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>277</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0318</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>278</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0730</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>279</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0731</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>280</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0803</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>281</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0804</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>282</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0805</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>283</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0806</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>284</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0807</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>285</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0810</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>286</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0811</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>287</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0812</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>288</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0319</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>289</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0813</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>290</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0814</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>291</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0817</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>292</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0818</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>293</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0819</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>294</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0820</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>295</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0821</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>296</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0824</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>297</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0825</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>298</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0826</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>299</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0320</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>300</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0827</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>301</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0828</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>302</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0831</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>303</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0901</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>304</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0902</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>305</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0903</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>306</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0904</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>307</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0907</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>308</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0908</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>309</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0909</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>310</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0323</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>311</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0910</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>312</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0911</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>313</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0914</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>314</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0915</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>315</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0916</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>316</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0917</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>317</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0918</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>318</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0924</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>319</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0925</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>320</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0928</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>321</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0324</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>322</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0929</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>323</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>0930</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>324</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1001</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>325</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1002</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>326</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1005</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>327</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1006</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>328</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1007</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>329</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1008</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>330</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1009</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>331</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1013</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>332</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0325</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>333</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0202</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>334</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1014</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>335</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1015</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>336</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1016</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>337</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1019</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>338</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1020</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>339</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1021</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>340</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1022</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>341</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1023</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>342</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1026</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>343</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1027</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>344</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0326</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>345</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1028</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>346</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1029</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>347</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1030</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>348</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1102</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>349</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1104</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>350</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1105</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>351</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1106</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>352</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1109</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>353</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1110</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>354</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1111</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>355</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0327</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>356</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1112</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>357</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1113</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>358</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1116</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>359</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1117</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>360</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1118</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>361</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1119</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>362</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1120</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>363</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1124</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>364</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1125</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>365</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1126</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>366</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0330</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>367</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1127</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>368</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1130</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>369</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1201</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>370</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1202</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>371</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1203</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>372</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1204</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>373</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1207</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>374</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1208</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>375</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1209</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>376</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1210</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>377</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0331</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>378</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1211</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>379</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1214</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>380</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1215</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>381</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1216</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>382</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1217</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>383</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1218</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>384</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1221</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>385</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1222</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>386</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1224</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>387</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1225</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>388</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0401</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>389</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 ← 博多</Tekiyo>
+    <CustomDate>1228</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>390</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0402</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>391</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0403</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>392</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0406</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>393</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0407</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>394</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0408</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>395</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0203</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>396</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0409</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>397</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0410</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>398</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0413</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>399</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0414</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>400</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0415</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>401</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0416</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>402</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0417</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>403</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0420</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>404</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0421</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>405</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0422</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>406</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0204</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>407</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0423</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>408</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0424</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>409</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0427</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>410</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0428</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>411</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0430</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>412</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0501</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>413</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0507</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>414</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0508</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>415</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0511</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>416</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0512</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>417</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0205</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>418</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0513</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>419</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0514</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>420</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0515</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>421</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0518</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>422</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0519</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>423</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0520</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>424</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0521</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>425</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0522</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>426</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0525</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>427</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0526</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>428</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0206</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>429</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0527</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>430</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0528</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>431</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0529</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>432</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0601</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>433</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0602</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>434</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0603</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>435</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0604</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>436</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0605</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>437</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0608</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>438</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0609</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>439</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0209</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>440</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0610</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>441</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0611</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>442</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0612</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>443</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0615</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>444</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0616</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>445</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0617</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>446</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0618</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>447</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0619</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>448</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0622</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>449</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0623</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+  <Shiwake>
+    <No>450</No>
+    <KrKmkName>旅費交通費</KrKmkName>
+    <KrHKmkName>電車代</KrHKmkName>
+    <Kingaku>1500</Kingaku>
+    <KsKmkName>現金</KsKmkName>
+    <KsHKmkName />
+    <Tekiyo>西新 → 博多</Tekiyo>
+    <CustomDate>0210</CustomDate>
+    <KmkKbn>経費</KmkKbn>
+  </Shiwake>
+</ShiwakeDs>
