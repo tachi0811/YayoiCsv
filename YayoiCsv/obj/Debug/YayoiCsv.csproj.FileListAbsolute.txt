@@ -17,3 +17,6 @@ C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\D
 C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.csproj.GenerateResource.Cache
 C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\Debug\弥生会計連携（ツール）.exe
 C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\Debug\弥生会計連携（ツール）.pdb
+C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.ViewGenkinSuitocho.resources
+C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.control.DataGridViewEx.resources
+C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.ViewYokinSuitocho.resources

@@ -40,8 +40,8 @@
             this.txtTekiyo = new YayoiCsv.control.TextBoxEx();
             this.label2 = new System.Windows.Forms.Label();
             this.cmbHojo = new System.Windows.Forms.ComboBox();
-            this.btnClose = new System.Windows.Forms.Button();
             this.btnShiwakeAdd = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.grpBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -171,18 +171,6 @@
             this.cmbHojo.Size = new System.Drawing.Size(194, 23);
             this.cmbHojo.TabIndex = 1;
             // 
-            // btnClose
-            // 
-            this.btnClose.BackColor = System.Drawing.Color.IndianRed;
-            this.btnClose.Font = new System.Drawing.Font("Meiryo UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnClose.Location = new System.Drawing.Point(266, 12);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(47, 40);
-            this.btnClose.TabIndex = 10;
-            this.btnClose.Text = "×";
-            this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
             // btnShiwakeAdd
             // 
             this.btnShiwakeAdd.Location = new System.Drawing.Point(12, 143);
@@ -193,14 +181,27 @@
             this.btnShiwakeAdd.UseVisualStyleBackColor = true;
             this.btnShiwakeAdd.Click += new System.EventHandler(this.btnShiwakeAdd_Click);
             // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.BackColor = System.Drawing.Color.IndianRed;
+            this.btnClose.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnClose.Location = new System.Drawing.Point(283, 2);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(30, 30);
+            this.btnClose.TabIndex = 12;
+            this.btnClose.Text = "×";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // BatchKotsuhi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(325, 204);
             this.ControlBox = false;
-            this.Controls.Add(this.btnShiwakeAdd);
             this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnShiwakeAdd);
             this.Controls.Add(this.cmbHojo);
             this.Controls.Add(this.txtTekiyo);
             this.Controls.Add(this.label2);
@@ -238,7 +239,7 @@
         private control.TextBoxEx txtTekiyo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cmbHojo;
-        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnShiwakeAdd;
+        private System.Windows.Forms.Button btnClose;
     }
 }

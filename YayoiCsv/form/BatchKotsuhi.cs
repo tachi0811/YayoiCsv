@@ -245,20 +245,14 @@ namespace YayoiCsv
             OutputCSV(ClickType.YayoiCsv);
         }
 
-        /// <summary>
-        /// 閉じるボタン
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        private void btnShiwakeAdd_Click(object sender, EventArgs e)
+        {
+            OutputCSV(ClickType.Shiwake);
+        }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             Static.CloseChildForm(this.GetType());
-        }
-
-        private void btnShiwakeAdd_Click(object sender, EventArgs e)
-        {
-            OutputCSV(ClickType.Shiwake);
         }
     }
 }

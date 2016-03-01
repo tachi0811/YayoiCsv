@@ -42,6 +42,11 @@
             this.uriageMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.miInputUriage = new System.Windows.Forms.ToolStripMenuItem();
             this.miShisan = new System.Windows.Forms.ToolStripMenuItem();
+            this.DaichoMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.miGenkinSuitocho = new System.Windows.Forms.ToolStripMenuItem();
+            this.kurikoshiMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.前年繰越し金入力ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.来年度ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yayoiMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.miYayoiCsvOutput = new System.Windows.Forms.ToolStripMenuItem();
             this.miYayoiCsvImportAppend = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,9 +54,7 @@
             this.windowsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.closeAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.kurikoshiMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.前年繰越し金入力ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.来年度ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.miYokinSuitocho = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +64,7 @@
             this.fileMenu,
             this.shiwakeMenu,
             this.uriageMenu,
+            this.DaichoMenu,
             this.kurikoshiMenu,
             this.yayoiMenu,
             this.windowsMenu});
@@ -146,16 +150,53 @@
             // miInputUriage
             // 
             this.miInputUriage.Name = "miInputUriage";
-            this.miInputUriage.Size = new System.Drawing.Size(152, 22);
+            this.miInputUriage.Size = new System.Drawing.Size(124, 22);
             this.miInputUriage.Text = "売上入力";
             this.miInputUriage.Click += new System.EventHandler(this.miInputUriage_Click);
             // 
             // miShisan
             // 
             this.miShisan.Name = "miShisan";
-            this.miShisan.Size = new System.Drawing.Size(152, 22);
+            this.miShisan.Size = new System.Drawing.Size(124, 22);
             this.miShisan.Text = "資産照会";
             this.miShisan.Click += new System.EventHandler(this.資産照会ToolStripMenuItem_Click);
+            // 
+            // DaichoMenu
+            // 
+            this.DaichoMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.miGenkinSuitocho,
+            this.miYokinSuitocho});
+            this.DaichoMenu.Name = "DaichoMenu";
+            this.DaichoMenu.Size = new System.Drawing.Size(63, 22);
+            this.DaichoMenu.Text = "台帳(&D)";
+            // 
+            // miGenkinSuitocho
+            // 
+            this.miGenkinSuitocho.Name = "miGenkinSuitocho";
+            this.miGenkinSuitocho.Size = new System.Drawing.Size(152, 22);
+            this.miGenkinSuitocho.Text = "現金出納帳";
+            this.miGenkinSuitocho.Click += new System.EventHandler(this.miGenkinSuitocho_Click);
+            // 
+            // kurikoshiMenu
+            // 
+            this.kurikoshiMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.前年繰越し金入力ToolStripMenuItem,
+            this.来年度ToolStripMenuItem});
+            this.kurikoshiMenu.Name = "kurikoshiMenu";
+            this.kurikoshiMenu.Size = new System.Drawing.Size(56, 22);
+            this.kurikoshiMenu.Text = "繰越し";
+            // 
+            // 前年繰越し金入力ToolStripMenuItem
+            // 
+            this.前年繰越し金入力ToolStripMenuItem.Name = "前年繰越し金入力ToolStripMenuItem";
+            this.前年繰越し金入力ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.前年繰越し金入力ToolStripMenuItem.Text = "残高入力";
+            // 
+            // 来年度ToolStripMenuItem
+            // 
+            this.来年度ToolStripMenuItem.Name = "来年度ToolStripMenuItem";
+            this.来年度ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.来年度ToolStripMenuItem.Text = "繰越処理";
             // 
             // yayoiMenu
             // 
@@ -203,26 +244,12 @@
             this.closeAllToolStripMenuItem.Text = "すべて閉じる(&L)";
             this.closeAllToolStripMenuItem.Click += new System.EventHandler(this.closeAllToolStripMenuItem_Click);
             // 
-            // kurikoshiMenu
+            // miYokinSuitocho
             // 
-            this.kurikoshiMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.前年繰越し金入力ToolStripMenuItem,
-            this.来年度ToolStripMenuItem});
-            this.kurikoshiMenu.Name = "kurikoshiMenu";
-            this.kurikoshiMenu.Size = new System.Drawing.Size(56, 22);
-            this.kurikoshiMenu.Text = "繰越し";
-            // 
-            // 前年繰越し金入力ToolStripMenuItem
-            // 
-            this.前年繰越し金入力ToolStripMenuItem.Name = "前年繰越し金入力ToolStripMenuItem";
-            this.前年繰越し金入力ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.前年繰越し金入力ToolStripMenuItem.Text = "残高入力";
-            // 
-            // 来年度ToolStripMenuItem
-            // 
-            this.来年度ToolStripMenuItem.Name = "来年度ToolStripMenuItem";
-            this.来年度ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.来年度ToolStripMenuItem.Text = "繰越処理";
+            this.miYokinSuitocho.Name = "miYokinSuitocho";
+            this.miYokinSuitocho.Size = new System.Drawing.Size(152, 22);
+            this.miYokinSuitocho.Text = "預金出納帳";
+            this.miYokinSuitocho.Click += new System.EventHandler(this.miYokinSuitocho_Click);
             // 
             // MDIParent
             // 
@@ -239,6 +266,7 @@
             this.Name = "MDIParent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "弥生会計 経費入力 サポート";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MDIParent_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MDIParent_FormClosed);
             this.Load += new System.EventHandler(this.MDIParent_Load);
             this.menuStrip.ResumeLayout(false);
@@ -272,6 +300,9 @@
         private System.Windows.Forms.ToolStripMenuItem kurikoshiMenu;
         private System.Windows.Forms.ToolStripMenuItem 前年繰越し金入力ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 来年度ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem DaichoMenu;
+        private System.Windows.Forms.ToolStripMenuItem miGenkinSuitocho;
+        private System.Windows.Forms.ToolStripMenuItem miYokinSuitocho;
     }
 }
 

@@ -169,13 +169,28 @@ namespace YayoiCsv
 
         private void MDIParent_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Static.SaveFormPosition();
+            
             Static.WriteNendo();
         }
 
         private void 資産照会ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Static.ShowChildForm(typeof(ViewShisan));
+        }
+
+        private void miGenkinSuitocho_Click(object sender, EventArgs e)
+        {
+            Static.ShowChildForm(typeof(ViewGenkinSuitocho));
+        }
+
+        private void MDIParent_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Static.SaveFormPosition();
+        }
+
+        private void miYokinSuitocho_Click(object sender, EventArgs e)
+        {
+            Static.ShowChildForm(typeof(ViewYokinSuitocho));
         }
     }
 }

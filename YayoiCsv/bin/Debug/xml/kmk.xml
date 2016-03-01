@@ -2,27 +2,15 @@
 <kmks>
   <kmk>
     <kbn>経費</kbn>
-    <name>減価償却費</name>
-  </kmk>
-  <kmk>
-    <kbn>経費</kbn>
-    <name>地代家賃</name>
-  </kmk>
-  <kmk>
-    <kbn>経費</kbn>
-    <name>水道光熱費</name>
-  </kmk>
-  <kmk>
-    <kbn>経費</kbn>
     <name>旅費交通費</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>
-    <name>通信費</name>
-  </kmk>
+    <name>取材費</name>
+  </kmk>	
   <kmk>
     <kbn>経費</kbn>
-    <name>接待交際費</name>
+    <name>制作費</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>
@@ -30,15 +18,67 @@
   </kmk>
   <kmk>
     <kbn>経費</kbn>
+    <name>事務用品費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>新聞図書費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>広告宣伝費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>地代家賃</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>賃貸料</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>水道光熱費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>通信費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
     <name>福利厚生費</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>
-    <name>車両費</name>
+    <name>荷造運賃</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>
-    <name>雑費</name>
+    <name>接待交際費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>外注費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>支払報酬</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>支払手数料</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>諸会費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>減価償却費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>修繕費</name>
   </kmk>
   <kmk>
     <kbn>資産</kbn>

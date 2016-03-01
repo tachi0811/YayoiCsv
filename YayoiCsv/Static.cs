@@ -86,12 +86,17 @@ namespace YayoiCsv
 
         public static void ShiwakeChanged()
         {
+            decimal uriage = 0;
+            decimal keihi = 0;
+
             if (ShiwakeDs.Shiwake.Count == 0)
             {
                 return;
             }
 
+            // ------------------------------------------------------------------
             // 経費合計を計算
+            // ------------------------------------------------------------------
             ShiwakeDs.KeihiSum.Clear();
             var sumKeihiGroup = ShiwakeDs.Shiwake.Where(x => x.KmkKbn == KmkKbn.経費.ToString()).
                 GroupBy(x => x.KrKmkName).Select(g => new { KrKmkName = g.Key, Kingaku = g.Sum(x => x.Kingaku) });
@@ -104,7 +109,9 @@ namespace YayoiCsv
                 ShiwakeDs.KeihiSum.AddKeihiSumRow(row);
             }
 
+            // ------------------------------------------------------------------
             // 仕訳合計（現金、普通預金、定期預金、売掛金、事業貸主）
+            // ------------------------------------------------------------------
             ShiwakeDs.ShisanSum.Clear();
             var sumGKr = ShiwakeDs.Shiwake.Where(x => x.KmkKbn == KmkKbn.資産.ToString()).
                 GroupBy(x => x.KrKmkName).Select(g => new { KmkName = g.Key, Kingaku = g.Sum(x => x.Kingaku) });
@@ -127,6 +134,7 @@ namespace YayoiCsv
                 if (shisan.KmkName == "売上高")
                 {
                     row.Kingaku = -1 * kingaku;
+                    uriage = row.Kingaku;
                 }
                 else
                 {
@@ -138,7 +146,88 @@ namespace YayoiCsv
             var rowKeihi = ShiwakeDs.ShisanSum.NewShisanSumRow();
             rowKeihi.KmkName = KmkKbn.経費.ToString();
             rowKeihi.Kingaku = ShiwakeDs.KeihiSum.Sum(x => x.Kingaku);
+            keihi = rowKeihi.Kingaku;
             ShiwakeDs.ShisanSum.AddShisanSumRow(rowKeihi);
+
+            var rowUriageKeihi = ShiwakeDs.ShisanSum.NewShisanSumRow();
+            rowUriageKeihi.KmkName = "売上高 - 軽費";
+            rowUriageKeihi.Kingaku = uriage - keihi;
+            ShiwakeDs.ShisanSum.AddShisanSumRow(rowUriageKeihi);
+
+            // ------------------------------------------------------------------
+            // 現金出納帳
+            // ------------------------------------------------------------------
+            SetGenkinSuitocho();
+
+            // ------------------------------------------------------------------
+            // 預金出納帳
+            // ------------------------------------------------------------------
+            SetYokinSuitocho();
+
+        }
+
+        private static void SetGenkinSuitocho()
+        {
+            ShiwakeDs.GenkinSuitocho.Clear();
+            decimal zanKingaku = 0;
+            foreach (var shiwake in ShiwakeDs.Shiwake.Where(x => x.KrKmkName == "現金" || x.KsKmkName == "現金").OrderByDescending(x => x.KmkKbn).ThenBy(x => x.CustomDate))
+            {
+                var row = ShiwakeDs.GenkinSuitocho.NewGenkinSuitochoRow();
+                row.KmkName = shiwake.KrKmkName;
+
+                row.CustomDate = shiwake.CustomDate;
+
+                if (shiwake.KrKmkName == "現金")
+                {
+                    zanKingaku += shiwake.Kingaku;
+                    row.KrKingaku = shiwake.Kingaku;
+                    row.KsKingaku = 0;
+                }
+                else if (shiwake.KsKmkName == "現金")
+                {
+                    zanKingaku -= shiwake.Kingaku;
+                    row.KrKingaku = 0;
+                    row.KsKingaku = shiwake.Kingaku;
+                }
+
+                row.ZanKingaku = zanKingaku;
+
+                ShiwakeDs.GenkinSuitocho.AddGenkinSuitochoRow(row);
+            }
+        }
+
+        private static void SetYokinSuitocho()
+        {
+            ShiwakeDs.YokinSuitocho.Clear();
+            decimal zanKingaku = 0;
+            foreach (var shiwake in ShiwakeDs.Shiwake.Where(x => x.KrKmkName.IndexOf("預金") >= 0 || x.KsKmkName.IndexOf("預金") >= 0).OrderBy(x => x.KmkKbn).ThenBy(x => x.CustomDate))
+            {
+                var row = ShiwakeDs.YokinSuitocho.NewYokinSuitochoRow();
+                row.KrKmkName = shiwake.KrKmkName;
+                row.KrHKmkName = shiwake.KrHKmkName;
+
+                row.KsKmkName = shiwake.KsKmkName;
+                row.KsHKmkName = shiwake.KsHKmkName;
+
+                row.CustomDate = shiwake.CustomDate;
+
+                if (shiwake.KrKmkName.IndexOf("預金") >= 0)
+                {
+                    zanKingaku += shiwake.Kingaku;
+                    row.KrKingaku = shiwake.Kingaku;
+                    row.KsKingaku = 0;
+                }
+                else if (shiwake.KsKmkName.IndexOf("預金") >= 0)
+                {
+                    zanKingaku -= shiwake.Kingaku;
+                    row.KrKingaku = 0;
+                    row.KsKingaku = shiwake.Kingaku;
+                }
+
+                row.ZanKingaku = zanKingaku;
+
+                ShiwakeDs.YokinSuitocho.AddYokinSuitochoRow(row);
+            }
         }
 
         /// <summary>

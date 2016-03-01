@@ -42,11 +42,6 @@ namespace YayoiCsv
             InitGrid();
         }
 
-        /// <summary>
-        /// 閉じるボタン
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void btnClose_Click(object sender, EventArgs e)
         {
             Static.CloseChildForm(this.GetType());
