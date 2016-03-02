@@ -14,10 +14,6 @@
   </hkmk>
   <hkmk>
     <kmkname>旅費交通費</kmkname>
-    <hkmkname>ガソリン代</hkmkname>
-  </hkmk>
-  <hkmk>
-    <kmkname>旅費交通費</kmkname>
     <hkmkname>高速代</hkmkname>
   </hkmk>
   <hkmk>
@@ -279,6 +275,14 @@
   <hkmk>
     <kmkname>修繕費</kmkname>
     <hkmkname>定期点検</hkmkname>
+  </hkmk>
+  <hkmk>
+    <kmkname>車両関係費</kmkname>
+    <hkmkname>ガソリン代</hkmkname>
+  </hkmk>
+  <hkmk>
+    <kmkname>車両関係費</kmkname>
+    <hkmkname>車検代</hkmkname>
   </hkmk>
   <hkmk>
     <kmkname>修繕費</kmkname>
