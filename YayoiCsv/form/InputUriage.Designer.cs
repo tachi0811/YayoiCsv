@@ -57,15 +57,6 @@
             this.cmbKmk_Kr = new YayoiCsv.control.ComboBoxEx();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.rdoYokinToKojin = new System.Windows.Forms.RadioButton();
-            this.rdoGenkinUriage = new System.Windows.Forms.RadioButton();
-            this.rdoUrikake = new System.Windows.Forms.RadioButton();
-            this.rdoGenkinToKojin = new System.Windows.Forms.RadioButton();
-            this.rdoGenkinToYokin = new System.Windows.Forms.RadioButton();
-            this.rdoUrikakeKYokin = new System.Windows.Forms.RadioButton();
-            this.rdoUrikakeKGenkin = new System.Windows.Forms.RadioButton();
-            this.rdoYokinToGenkin = new System.Windows.Forms.RadioButton();
             this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colKrKmkNm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colKrHKmkNm = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -76,6 +67,15 @@
             this.colNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colUpd = new System.Windows.Forms.DataGridViewButtonColumn();
             this.colDel = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.rdoYokinToKojin = new System.Windows.Forms.RadioButton();
+            this.rdoGenkinUriage = new System.Windows.Forms.RadioButton();
+            this.rdoUrikake = new System.Windows.Forms.RadioButton();
+            this.rdoGenkinToKojin = new System.Windows.Forms.RadioButton();
+            this.rdoGenkinToYokin = new System.Windows.Forms.RadioButton();
+            this.rdoUrikakeKYokin = new System.Windows.Forms.RadioButton();
+            this.rdoUrikakeKGenkin = new System.Windows.Forms.RadioButton();
+            this.rdoYokinToGenkin = new System.Windows.Forms.RadioButton();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox3.SuspendLayout();
@@ -86,7 +86,7 @@
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.BackColor = System.Drawing.Color.IndianRed;
             this.btnClose.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnClose.Location = new System.Drawing.Point(875, 1);
+            this.btnClose.Location = new System.Drawing.Point(883, 4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(30, 30);
             this.btnClose.TabIndex = 2;
@@ -333,119 +333,6 @@
             this.dataGridView1.TabIndex = 23;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.rdoYokinToKojin);
-            this.groupBox3.Controls.Add(this.rdoGenkinUriage);
-            this.groupBox3.Controls.Add(this.rdoUrikake);
-            this.groupBox3.Controls.Add(this.rdoGenkinToKojin);
-            this.groupBox3.Controls.Add(this.rdoGenkinToYokin);
-            this.groupBox3.Controls.Add(this.rdoUrikakeKYokin);
-            this.groupBox3.Controls.Add(this.rdoUrikakeKGenkin);
-            this.groupBox3.Controls.Add(this.rdoYokinToGenkin);
-            this.groupBox3.Location = new System.Drawing.Point(8, 1);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(330, 121);
-            this.groupBox3.TabIndex = 1;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "選択";
-            // 
-            // rdoYokinToKojin
-            // 
-            this.rdoYokinToKojin.AutoSize = true;
-            this.rdoYokinToKojin.Location = new System.Drawing.Point(146, 94);
-            this.rdoYokinToKojin.Name = "rdoYokinToKojin";
-            this.rdoYokinToKojin.Size = new System.Drawing.Size(127, 19);
-            this.rdoYokinToKojin.TabIndex = 7;
-            this.rdoYokinToKojin.TabStop = true;
-            this.rdoYokinToKojin.Text = "預金を個人的に使用";
-            this.rdoYokinToKojin.UseVisualStyleBackColor = true;
-            this.rdoYokinToKojin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
-            // 
-            // rdoGenkinUriage
-            // 
-            this.rdoGenkinUriage.AutoSize = true;
-            this.rdoGenkinUriage.Location = new System.Drawing.Point(66, 19);
-            this.rdoGenkinUriage.Name = "rdoGenkinUriage";
-            this.rdoGenkinUriage.Size = new System.Drawing.Size(73, 19);
-            this.rdoGenkinUriage.TabIndex = 1;
-            this.rdoGenkinUriage.TabStop = true;
-            this.rdoGenkinUriage.Text = "現金売上";
-            this.rdoGenkinUriage.UseVisualStyleBackColor = true;
-            this.rdoGenkinUriage.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
-            // 
-            // rdoUrikake
-            // 
-            this.rdoUrikake.AutoSize = true;
-            this.rdoUrikake.Location = new System.Drawing.Point(7, 19);
-            this.rdoUrikake.Name = "rdoUrikake";
-            this.rdoUrikake.Size = new System.Drawing.Size(61, 19);
-            this.rdoUrikake.TabIndex = 0;
-            this.rdoUrikake.TabStop = true;
-            this.rdoUrikake.Text = "売掛金";
-            this.rdoUrikake.UseVisualStyleBackColor = true;
-            this.rdoUrikake.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
-            // 
-            // rdoGenkinToKojin
-            // 
-            this.rdoGenkinToKojin.AutoSize = true;
-            this.rdoGenkinToKojin.Location = new System.Drawing.Point(7, 94);
-            this.rdoGenkinToKojin.Name = "rdoGenkinToKojin";
-            this.rdoGenkinToKojin.Size = new System.Drawing.Size(127, 19);
-            this.rdoGenkinToKojin.TabIndex = 6;
-            this.rdoGenkinToKojin.TabStop = true;
-            this.rdoGenkinToKojin.Text = "現金を個人的に使用";
-            this.rdoGenkinToKojin.UseVisualStyleBackColor = true;
-            this.rdoGenkinToKojin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
-            // 
-            // rdoGenkinToYokin
-            // 
-            this.rdoGenkinToYokin.AutoSize = true;
-            this.rdoGenkinToYokin.Location = new System.Drawing.Point(146, 69);
-            this.rdoGenkinToYokin.Name = "rdoGenkinToYokin";
-            this.rdoGenkinToYokin.Size = new System.Drawing.Size(100, 19);
-            this.rdoGenkinToYokin.TabIndex = 5;
-            this.rdoGenkinToYokin.TabStop = true;
-            this.rdoGenkinToYokin.Text = "現金を預金した";
-            this.rdoGenkinToYokin.UseVisualStyleBackColor = true;
-            this.rdoGenkinToYokin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
-            // 
-            // rdoUrikakeKYokin
-            // 
-            this.rdoUrikakeKYokin.AutoSize = true;
-            this.rdoUrikakeKYokin.Location = new System.Drawing.Point(7, 44);
-            this.rdoUrikakeKYokin.Name = "rdoUrikakeKYokin";
-            this.rdoUrikakeKYokin.Size = new System.Drawing.Size(133, 19);
-            this.rdoUrikakeKYokin.TabIndex = 2;
-            this.rdoUrikakeKYokin.TabStop = true;
-            this.rdoUrikakeKYokin.Text = "売掛金回収（預金）";
-            this.rdoUrikakeKYokin.UseVisualStyleBackColor = true;
-            this.rdoUrikakeKYokin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
-            // 
-            // rdoUrikakeKGenkin
-            // 
-            this.rdoUrikakeKGenkin.AutoSize = true;
-            this.rdoUrikakeKGenkin.Location = new System.Drawing.Point(146, 44);
-            this.rdoUrikakeKGenkin.Name = "rdoUrikakeKGenkin";
-            this.rdoUrikakeKGenkin.Size = new System.Drawing.Size(133, 19);
-            this.rdoUrikakeKGenkin.TabIndex = 3;
-            this.rdoUrikakeKGenkin.TabStop = true;
-            this.rdoUrikakeKGenkin.Text = "売掛金回収（現金）";
-            this.rdoUrikakeKGenkin.UseVisualStyleBackColor = true;
-            this.rdoUrikakeKGenkin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
-            // 
-            // rdoYokinToGenkin
-            // 
-            this.rdoYokinToGenkin.AutoSize = true;
-            this.rdoYokinToGenkin.Location = new System.Drawing.Point(7, 69);
-            this.rdoYokinToGenkin.Name = "rdoYokinToGenkin";
-            this.rdoYokinToGenkin.Size = new System.Drawing.Size(124, 19);
-            this.rdoYokinToGenkin.TabIndex = 4;
-            this.rdoYokinToGenkin.TabStop = true;
-            this.rdoYokinToGenkin.Text = "預金から現金を引出";
-            this.rdoYokinToGenkin.UseVisualStyleBackColor = true;
-            this.rdoYokinToGenkin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
-            // 
             // colDate
             // 
             this.colDate.DataPropertyName = "CustomDate";
@@ -558,6 +445,119 @@
             this.colDel.ReadOnly = true;
             this.colDel.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.colDel.Width = 50;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.rdoYokinToKojin);
+            this.groupBox3.Controls.Add(this.rdoGenkinUriage);
+            this.groupBox3.Controls.Add(this.rdoUrikake);
+            this.groupBox3.Controls.Add(this.rdoGenkinToKojin);
+            this.groupBox3.Controls.Add(this.rdoGenkinToYokin);
+            this.groupBox3.Controls.Add(this.rdoUrikakeKYokin);
+            this.groupBox3.Controls.Add(this.rdoUrikakeKGenkin);
+            this.groupBox3.Controls.Add(this.rdoYokinToGenkin);
+            this.groupBox3.Location = new System.Drawing.Point(8, 1);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(330, 121);
+            this.groupBox3.TabIndex = 1;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "選択";
+            // 
+            // rdoYokinToKojin
+            // 
+            this.rdoYokinToKojin.AutoSize = true;
+            this.rdoYokinToKojin.Location = new System.Drawing.Point(146, 94);
+            this.rdoYokinToKojin.Name = "rdoYokinToKojin";
+            this.rdoYokinToKojin.Size = new System.Drawing.Size(127, 19);
+            this.rdoYokinToKojin.TabIndex = 7;
+            this.rdoYokinToKojin.TabStop = true;
+            this.rdoYokinToKojin.Text = "預金を個人的に使用";
+            this.rdoYokinToKojin.UseVisualStyleBackColor = true;
+            this.rdoYokinToKojin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
+            // 
+            // rdoGenkinUriage
+            // 
+            this.rdoGenkinUriage.AutoSize = true;
+            this.rdoGenkinUriage.Location = new System.Drawing.Point(66, 19);
+            this.rdoGenkinUriage.Name = "rdoGenkinUriage";
+            this.rdoGenkinUriage.Size = new System.Drawing.Size(73, 19);
+            this.rdoGenkinUriage.TabIndex = 1;
+            this.rdoGenkinUriage.TabStop = true;
+            this.rdoGenkinUriage.Text = "現金売上";
+            this.rdoGenkinUriage.UseVisualStyleBackColor = true;
+            this.rdoGenkinUriage.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
+            // 
+            // rdoUrikake
+            // 
+            this.rdoUrikake.AutoSize = true;
+            this.rdoUrikake.Location = new System.Drawing.Point(7, 19);
+            this.rdoUrikake.Name = "rdoUrikake";
+            this.rdoUrikake.Size = new System.Drawing.Size(61, 19);
+            this.rdoUrikake.TabIndex = 0;
+            this.rdoUrikake.TabStop = true;
+            this.rdoUrikake.Text = "売掛金";
+            this.rdoUrikake.UseVisualStyleBackColor = true;
+            this.rdoUrikake.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
+            // 
+            // rdoGenkinToKojin
+            // 
+            this.rdoGenkinToKojin.AutoSize = true;
+            this.rdoGenkinToKojin.Location = new System.Drawing.Point(7, 94);
+            this.rdoGenkinToKojin.Name = "rdoGenkinToKojin";
+            this.rdoGenkinToKojin.Size = new System.Drawing.Size(127, 19);
+            this.rdoGenkinToKojin.TabIndex = 6;
+            this.rdoGenkinToKojin.TabStop = true;
+            this.rdoGenkinToKojin.Text = "現金を個人的に使用";
+            this.rdoGenkinToKojin.UseVisualStyleBackColor = true;
+            this.rdoGenkinToKojin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
+            // 
+            // rdoGenkinToYokin
+            // 
+            this.rdoGenkinToYokin.AutoSize = true;
+            this.rdoGenkinToYokin.Location = new System.Drawing.Point(146, 69);
+            this.rdoGenkinToYokin.Name = "rdoGenkinToYokin";
+            this.rdoGenkinToYokin.Size = new System.Drawing.Size(100, 19);
+            this.rdoGenkinToYokin.TabIndex = 5;
+            this.rdoGenkinToYokin.TabStop = true;
+            this.rdoGenkinToYokin.Text = "現金を預金した";
+            this.rdoGenkinToYokin.UseVisualStyleBackColor = true;
+            this.rdoGenkinToYokin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
+            // 
+            // rdoUrikakeKYokin
+            // 
+            this.rdoUrikakeKYokin.AutoSize = true;
+            this.rdoUrikakeKYokin.Location = new System.Drawing.Point(7, 44);
+            this.rdoUrikakeKYokin.Name = "rdoUrikakeKYokin";
+            this.rdoUrikakeKYokin.Size = new System.Drawing.Size(133, 19);
+            this.rdoUrikakeKYokin.TabIndex = 2;
+            this.rdoUrikakeKYokin.TabStop = true;
+            this.rdoUrikakeKYokin.Text = "売掛金回収（預金）";
+            this.rdoUrikakeKYokin.UseVisualStyleBackColor = true;
+            this.rdoUrikakeKYokin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
+            // 
+            // rdoUrikakeKGenkin
+            // 
+            this.rdoUrikakeKGenkin.AutoSize = true;
+            this.rdoUrikakeKGenkin.Location = new System.Drawing.Point(146, 44);
+            this.rdoUrikakeKGenkin.Name = "rdoUrikakeKGenkin";
+            this.rdoUrikakeKGenkin.Size = new System.Drawing.Size(133, 19);
+            this.rdoUrikakeKGenkin.TabIndex = 3;
+            this.rdoUrikakeKGenkin.TabStop = true;
+            this.rdoUrikakeKGenkin.Text = "売掛金回収（現金）";
+            this.rdoUrikakeKGenkin.UseVisualStyleBackColor = true;
+            this.rdoUrikakeKGenkin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
+            // 
+            // rdoYokinToGenkin
+            // 
+            this.rdoYokinToGenkin.AutoSize = true;
+            this.rdoYokinToGenkin.Location = new System.Drawing.Point(7, 69);
+            this.rdoYokinToGenkin.Name = "rdoYokinToGenkin";
+            this.rdoYokinToGenkin.Size = new System.Drawing.Size(124, 19);
+            this.rdoYokinToGenkin.TabIndex = 4;
+            this.rdoYokinToGenkin.TabStop = true;
+            this.rdoYokinToGenkin.Text = "預金から現金を引出";
+            this.rdoYokinToGenkin.UseVisualStyleBackColor = true;
+            this.rdoYokinToGenkin.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
             // 
             // InputUriage
             // 
