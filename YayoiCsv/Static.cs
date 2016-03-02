@@ -131,7 +131,7 @@ namespace YayoiCsv
 
                 row.KmkName = shisan.KmkName;
 
-                if (shisan.KmkName == "売上高")
+                if (shisan.KmkName.IndexOf("売上高") >= 0)
                 {
                     row.Kingaku = -1 * kingaku;
                     uriage = row.Kingaku;
@@ -368,7 +368,7 @@ namespace YayoiCsv
             {
                 SetFormPositionRow(form);
             }
-            Static.ShiwakeDs.FormPosition.WriteXml(@"xml\form.xml");
+            Static.ShiwakeDs.FormPosition.WriteXml(@"xml\form_position.xml");
         }
 
         /// <summary>
@@ -392,9 +392,9 @@ namespace YayoiCsv
         /// </summary>
         public static void ReadFormPosition()
         {
-            if (System.IO.File.Exists(@"xml\form.xml"))
+            if (System.IO.File.Exists(@"xml\form_position.xml"))
             {
-                Static.ShiwakeDs.FormPosition.ReadXml(@"xml\form.xml");
+                Static.ShiwakeDs.FormPosition.ReadXml(@"xml\form_position.xml");
             }
         }
 
