@@ -31,7 +31,7 @@ namespace YayoiCsv
         private void SetCombo()
         {
             cmbHojo.Items.Clear();
-            cmbHojo.Items.AddRange(Static.HKmkList.Where(x => x.KmkName == "旅費交通費").Select(x => x.HkmkName).ToArray());
+            cmbHojo.Items.AddRange(Static.HKmkList.Where(x => x.KmkName == "旅費交通費").Select(x => x.HKmkName).ToArray());
         }
 
         /// <summary>

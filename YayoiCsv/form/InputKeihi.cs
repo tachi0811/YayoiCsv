@@ -82,7 +82,7 @@ namespace YayoiCsv
             {
                 cmbHKmk_Kr.Text = "";
                 cmbHKmk_Kr.Items.Clear();
-                cmbHKmk_Kr.Items.AddRange(Static.HKmkList.Where(x => x.KmkName == cmbKmk_Kr.SelectedItem.ToString()).Select(x => x.HkmkName).ToArray());
+                cmbHKmk_Kr.Items.AddRange(Static.HKmkList.Where(x => x.KmkName == cmbKmk_Kr.SelectedItem.ToString()).Select(x => x.HKmkName).ToArray());
             }
         }
 
@@ -97,7 +97,7 @@ namespace YayoiCsv
             {
                 cmbHKmkSrch.Text = "";
                 cmbHKmkSrch.Items.Clear();
-                cmbHKmkSrch.Items.AddRange(Static.HKmkList.Where(x => x.KmkName == cmbKmkSrch.SelectedItem.ToString()).Select(x => x.HkmkName).ToArray());
+                cmbHKmkSrch.Items.AddRange(Static.HKmkList.Where(x => x.KmkName == cmbKmkSrch.SelectedItem.ToString()).Select(x => x.HKmkName).ToArray());
             }
             Search();
         }

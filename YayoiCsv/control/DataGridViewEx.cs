@@ -22,7 +22,7 @@ namespace YayoiCsv.control
             base.OnCellFormatting(e);
             if (Columns[e.ColumnIndex].Name.IndexOf("Kingaku") >= 0)
             {
-                decimal? kingaku = (decimal)e.Value;
+                decimal? kingaku = (decimal?)e.Value;
 
                 if (kingaku != null && kingaku < 0)
                 {

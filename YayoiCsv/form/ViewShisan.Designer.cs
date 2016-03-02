@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new YayoiCsv.control.DataGridViewEx();
-            this.colKrKmkNm = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colKingaku = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnClose = new System.Windows.Forms.Button();
+            this.colKrKmkNm = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HKmkName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colKingaku = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,6 +50,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colKrKmkNm,
+            this.HKmkName,
             this.colKingaku});
             this.dataGridView1.Location = new System.Drawing.Point(0, 40);
             this.dataGridView1.MultiSelect = false;
@@ -56,40 +59,15 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowTemplate.Height = 21;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(274, 272);
+            this.dataGridView1.Size = new System.Drawing.Size(424, 272);
             this.dataGridView1.TabIndex = 23;
-            // 
-            // colKrKmkNm
-            // 
-            this.colKrKmkNm.DataPropertyName = "KmkName";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            this.colKrKmkNm.DefaultCellStyle = dataGridViewCellStyle3;
-            this.colKrKmkNm.HeaderText = "科目名";
-            this.colKrKmkNm.Name = "colKrKmkNm";
-            this.colKrKmkNm.ReadOnly = true;
-            this.colKrKmkNm.Width = 150;
-            // 
-            // colKingaku
-            // 
-            this.colKingaku.DataPropertyName = "Kingaku";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "C0";
-            dataGridViewCellStyle4.NullValue = null;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            this.colKingaku.DefaultCellStyle = dataGridViewCellStyle4;
-            this.colKingaku.HeaderText = "金額";
-            this.colKingaku.Name = "colKingaku";
-            this.colKingaku.ReadOnly = true;
             // 
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.BackColor = System.Drawing.Color.IndianRed;
             this.btnClose.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnClose.Location = new System.Drawing.Point(240, 5);
+            this.btnClose.Location = new System.Drawing.Point(390, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(30, 30);
             this.btnClose.TabIndex = 24;
@@ -97,11 +75,47 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // colKrKmkNm
+            // 
+            this.colKrKmkNm.DataPropertyName = "KmkName";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            this.colKrKmkNm.DefaultCellStyle = dataGridViewCellStyle1;
+            this.colKrKmkNm.HeaderText = "科目名";
+            this.colKrKmkNm.Name = "colKrKmkNm";
+            this.colKrKmkNm.ReadOnly = true;
+            this.colKrKmkNm.Width = 150;
+            // 
+            // HKmkName
+            // 
+            this.HKmkName.DataPropertyName = "HKmkName";
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            this.HKmkName.DefaultCellStyle = dataGridViewCellStyle2;
+            this.HKmkName.HeaderText = "補助科目名";
+            this.HKmkName.Name = "HKmkName";
+            this.HKmkName.ReadOnly = true;
+            this.HKmkName.Width = 150;
+            // 
+            // colKingaku
+            // 
+            this.colKingaku.DataPropertyName = "Kingaku";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle3.Format = "C0";
+            dataGridViewCellStyle3.NullValue = null;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            this.colKingaku.DefaultCellStyle = dataGridViewCellStyle3;
+            this.colKingaku.HeaderText = "金額";
+            this.colKingaku.Name = "colKingaku";
+            this.colKingaku.ReadOnly = true;
+            // 
             // ViewShisan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(274, 312);
+            this.ClientSize = new System.Drawing.Size(424, 312);
             this.ControlBox = false;
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.dataGridView1);
@@ -119,9 +133,10 @@
 
         #endregion
         private control.DataGridViewEx dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colKingaku;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colKrKmkNm;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colKingaku;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HKmkName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colKrKmkNm;
     }
 }
 

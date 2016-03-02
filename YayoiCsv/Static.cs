@@ -114,24 +114,25 @@ namespace YayoiCsv
             // ------------------------------------------------------------------
             ShiwakeDs.ShisanSum.Clear();
             var sumGKr = ShiwakeDs.Shiwake.Where(x => x.KmkKbn == KmkKbn.資産.ToString()).
-                GroupBy(x => x.KrKmkName).Select(g => new { KmkName = g.Key, Kingaku = g.Sum(x => x.Kingaku) });
+                GroupBy(x => new { KmkName = x.KrKmkName, HKmkName = x.KrHKmkName }).
+                Select(g => new { KmkName = g.Key.KmkName, HKmkName = g.Key.HKmkName , Kingaku = g.Sum(x => x.Kingaku) });
 
-            var sumGKs = ShiwakeDs.Shiwake.
-                GroupBy(x => x.KsKmkName).Select(g => new { KmkName = g.Key, Kingaku = g.Sum(x => x.Kingaku) });
+            var sumGKs = ShiwakeDs.Shiwake.Where(x => x.KmkKbn == KmkKbn.資産.ToString()).
+                GroupBy(x => new { KmkName = x.KsKmkName, HKmkName = x.KsHKmkName }).
+                Select(g => new { KmkName = g.Key.KmkName, HKmkName = g.Key.HKmkName, Kingaku = g.Sum(x => x.Kingaku) });
 
-            foreach (var shisan in KmkList.Where(x => x.KmkKbn == KmkKbn.資産.ToString()))
-            {
-               
+            foreach (var item in KmkList.Where(x => x.KmkKbn == KmkKbn.資産.ToString()).
+                Join(sumGKr, x =>new { x.KmkName } , y => new { y.KmkName }, (x, y) => new { y.KmkName, y.HKmkName, y.Kingaku }))
+            {  
                 var row = ShiwakeDs.ShisanSum.NewShisanSumRow();
 
-                decimal kr = sumGKr.Where(x => x.KmkName == shisan.KmkName).Select(x => x.Kingaku).FirstOrDefault();
-                decimal ks = sumGKs.Where(x => x.KmkName == shisan.KmkName).Select(x => x.Kingaku).FirstOrDefault();
+                decimal ks = sumGKs.Where(x => x.KmkName == item.KmkName && x.HKmkName == item.HKmkName).Select(x => x.Kingaku).FirstOrDefault();
+                decimal kingaku = item.Kingaku - ks;
 
-                decimal kingaku = kr - ks;
+                row.KmkName = item.KmkName;
+                row.HKmkName = item.HKmkName;
 
-                row.KmkName = shisan.KmkName;
-
-                if (shisan.KmkName.IndexOf("売上高") >= 0)
+                if (item.KmkName.IndexOf("売上高") >= 0)
                 {
                     row.Kingaku = -1 * kingaku;
                     uriage = row.Kingaku;
@@ -141,6 +142,30 @@ namespace YayoiCsv
                     row.Kingaku = kingaku;
                 }
                 ShiwakeDs.ShisanSum.AddShisanSumRow(row);
+            }
+
+            foreach (var item in sumGKs)
+            {
+                // 貸方にしかない場合は、こちらから表示する
+                var sumGr = sumGKr.Where(x => x.KmkName == item.KmkName && x.HKmkName == item.HKmkName).FirstOrDefault();
+                if (sumGr == null)
+                {
+                    var row = ShiwakeDs.ShisanSum.NewShisanSumRow();
+
+                    row.KmkName = item.KmkName;
+                    row.HKmkName = item.HKmkName;
+
+                    if (item.KmkName.IndexOf("売上高") >= 0)
+                    {
+                        row.Kingaku = item.Kingaku;
+                        uriage = row.Kingaku;
+                    }
+                    else
+                    {
+                        row.Kingaku = -1 * item.Kingaku;
+                    }
+                    ShiwakeDs.ShisanSum.AddShisanSumRow(row);
+                }
             }
 
             var rowKeihi = ShiwakeDs.ShisanSum.NewShisanSumRow();
@@ -468,7 +493,7 @@ namespace YayoiCsv
             foreach (var item in xItems.Select(x => new HojoKamoku()
             {
                 KmkName = (string)x.Element("kmkname"),
-                HkmkName = (string)x.Element("hkmkname")
+                HKmkName = (string)x.Element("hkmkname")
             }))
             {
                 Static.HKmkList.Add(item);

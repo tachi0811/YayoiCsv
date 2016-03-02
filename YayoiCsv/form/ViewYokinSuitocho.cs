@@ -45,7 +45,7 @@ namespace YayoiCsv
             {
                 cmbHKmk.Text = "";
                 cmbHKmk.Items.Clear();
-                cmbHKmk.Items.AddRange(Static.HKmkList.Where(x => x.KmkName == cmbKmk.SelectedItem.ToString()).Select(x => x.HkmkName).ToArray());
+                cmbHKmk.Items.AddRange(Static.HKmkList.Where(x => x.KmkName == cmbKmk.SelectedItem.ToString()).Select(x => x.HKmkName).ToArray());
             }
             Search();
         }

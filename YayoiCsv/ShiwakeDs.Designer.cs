@@ -1080,6 +1080,8 @@ namespace YayoiCsv {
             
             private global::System.Data.DataColumn columnKingaku;
             
+            private global::System.Data.DataColumn columnHKmkName;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public ShisanSumDataTable() {
@@ -1131,6 +1133,14 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn HKmkNameColumn {
+                get {
+                    return this.columnHKmkName;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1166,11 +1176,12 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ShisanSumRow AddShisanSumRow(string KmkName, decimal Kingaku) {
+            public ShisanSumRow AddShisanSumRow(string KmkName, decimal Kingaku, string HKmkName) {
                 ShisanSumRow rowShisanSumRow = ((ShisanSumRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         KmkName,
-                        Kingaku};
+                        Kingaku,
+                        HKmkName};
                 rowShisanSumRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowShisanSumRow);
                 return rowShisanSumRow;
@@ -1195,6 +1206,7 @@ namespace YayoiCsv {
             internal void InitVars() {
                 this.columnKmkName = base.Columns["KmkName"];
                 this.columnKingaku = base.Columns["Kingaku"];
+                this.columnHKmkName = base.Columns["HKmkName"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1204,6 +1216,8 @@ namespace YayoiCsv {
                 base.Columns.Add(this.columnKmkName);
                 this.columnKingaku = new global::System.Data.DataColumn("Kingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnKingaku);
+                this.columnHKmkName = new global::System.Data.DataColumn("HKmkName", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHKmkName);
                 this.columnKmkName.Caption = "KrKmkName";
             }
             
@@ -2658,6 +2672,22 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string HKmkName {
+                get {
+                    try {
+                        return ((string)(this[this.tableShisanSum.HKmkNameColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("テーブル \'ShisanSum\' にある列 \'HKmkName\' の値は DBNull です。", e);
+                    }
+                }
+                set {
+                    this[this.tableShisanSum.HKmkNameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsKmkNameNull() {
                 return this.IsNull(this.tableShisanSum.KmkNameColumn);
             }
@@ -2678,6 +2708,18 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetKingakuNull() {
                 this[this.tableShisanSum.KingakuColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsHKmkNameNull() {
+                return this.IsNull(this.tableShisanSum.HKmkNameColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetHKmkNameNull() {
+                this[this.tableShisanSum.HKmkNameColumn] = global::System.Convert.DBNull;
             }
         }
         

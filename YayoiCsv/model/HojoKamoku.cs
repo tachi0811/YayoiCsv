@@ -16,6 +16,6 @@ namespace YayoiCsv
         /// <summary>
         /// 補助科目名
         /// </summary>
-        public string HkmkName { get; set; }
+        public string HKmkName { get; set; }
     }
 }

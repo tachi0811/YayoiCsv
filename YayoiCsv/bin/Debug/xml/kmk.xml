@@ -81,6 +81,14 @@
     <name>修繕費</name>
   </kmk>
   <kmk>
+    <kbn>経費</kbn>
+    <name>車両関係費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>雑費</name>
+  </kmk>
+  <kmk>
     <kbn>資産</kbn>
     <name>売上高</name>
   </kmk>
