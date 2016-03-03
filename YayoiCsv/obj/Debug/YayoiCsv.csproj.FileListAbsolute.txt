@@ -21,3 +21,6 @@ C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\D
 C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.control.DataGridViewEx.resources
 C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.ViewYokinSuitocho.resources
 C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.csprojResolveAssemblyReference.cache
+C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\bin\Debug\ClosedXML.dll
+C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\bin\Debug\ClosedXML.xml

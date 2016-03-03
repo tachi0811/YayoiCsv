@@ -43,5 +43,10 @@ namespace YayoiCsv
         {
             Static.CloseChildForm(this.GetType());
         }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            Static.ExcelOutput(Static.ShiwakeDs.ShisanSum.TableName);
+        }
     }
 }

@@ -8,6 +8,7 @@ using System.Data;
 using System.Xml.XmlConfiguration;
 using System.Xml.Linq;
 using System.Xml;
+using ClosedXML.Excel;
 
 namespace YayoiCsv
 {
@@ -1060,6 +1061,35 @@ namespace YayoiCsv
             ShiwakeChanged();
         }
 
+        #endregion
+
+        #region Excel出力
+
+        public static void ExcelOutput(string tableName)
+        {
+            using (var saveDialog = new SaveFileDialog())
+            {
+                // 初期表示するディレクトリを設定する
+                saveDialog.InitialDirectory = @"C:\";
+                saveDialog.FileName = Static.Nendo.ToString() + "_" + tableName + ".xlsx";
+                saveDialog.Filter = "テキスト ファイル|*.xlsx";
+
+                var result = saveDialog.ShowDialog(Static.ParentForm);
+                if (result == DialogResult.OK)
+                {
+                    var dt = ShiwakeDs.Tables[tableName];
+
+                    using (var xls = new XLWorkbook())
+                    {
+                        xls.Worksheets.Add(dt);
+                        xls.SaveAs(saveDialog.FileName);
+
+                        MessageBox.Show("Excelを出力しました。", "出力", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    }
+                }
+            }
+        }
         #endregion
 
     }

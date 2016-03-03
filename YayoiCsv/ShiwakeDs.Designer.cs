@@ -943,6 +943,8 @@ namespace YayoiCsv {
                 base.Columns.Add(this.columnKrKmkName);
                 this.columnKingaku = new global::System.Data.DataColumn("Kingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnKingaku);
+                this.columnKrKmkName.Caption = "科目名";
+                this.columnKingaku.Caption = "金額";
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1078,9 +1080,9 @@ namespace YayoiCsv {
             
             private global::System.Data.DataColumn columnKmkName;
             
-            private global::System.Data.DataColumn columnKingaku;
-            
             private global::System.Data.DataColumn columnHKmkName;
+            
+            private global::System.Data.DataColumn columnKingaku;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -1125,17 +1127,17 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn KingakuColumn {
+            public global::System.Data.DataColumn HKmkNameColumn {
                 get {
-                    return this.columnKingaku;
+                    return this.columnHKmkName;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn HKmkNameColumn {
+            public global::System.Data.DataColumn KingakuColumn {
                 get {
-                    return this.columnHKmkName;
+                    return this.columnKingaku;
                 }
             }
             
@@ -1176,12 +1178,12 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ShisanSumRow AddShisanSumRow(string KmkName, decimal Kingaku, string HKmkName) {
+            public ShisanSumRow AddShisanSumRow(string KmkName, string HKmkName, decimal Kingaku) {
                 ShisanSumRow rowShisanSumRow = ((ShisanSumRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         KmkName,
-                        Kingaku,
-                        HKmkName};
+                        HKmkName,
+                        Kingaku};
                 rowShisanSumRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowShisanSumRow);
                 return rowShisanSumRow;
@@ -1205,8 +1207,8 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
                 this.columnKmkName = base.Columns["KmkName"];
-                this.columnKingaku = base.Columns["Kingaku"];
                 this.columnHKmkName = base.Columns["HKmkName"];
+                this.columnKingaku = base.Columns["Kingaku"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1214,11 +1216,13 @@ namespace YayoiCsv {
             private void InitClass() {
                 this.columnKmkName = new global::System.Data.DataColumn("KmkName", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnKmkName);
-                this.columnKingaku = new global::System.Data.DataColumn("Kingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnKingaku);
                 this.columnHKmkName = new global::System.Data.DataColumn("HKmkName", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnHKmkName);
-                this.columnKmkName.Caption = "KrKmkName";
+                this.columnKingaku = new global::System.Data.DataColumn("Kingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnKingaku);
+                this.columnKmkName.Caption = "科目名";
+                this.columnHKmkName.Caption = "補助科目名";
+                this.columnKingaku.Caption = "金額";
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1669,15 +1673,15 @@ namespace YayoiCsv {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class GenkinSuitochoDataTable : global::System.Data.TypedTableBase<GenkinSuitochoRow> {
             
-            private global::System.Data.DataColumn columnKmkName;
+            private global::System.Data.DataColumn columnCustomDate;
             
-            private global::System.Data.DataColumn columnKsKingaku;
+            private global::System.Data.DataColumn columnKmkName;
             
             private global::System.Data.DataColumn columnKrKingaku;
             
-            private global::System.Data.DataColumn columnZanKingaku;
+            private global::System.Data.DataColumn columnKsKingaku;
             
-            private global::System.Data.DataColumn columnCustomDate;
+            private global::System.Data.DataColumn columnZanKingaku;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -1714,17 +1718,17 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn KmkNameColumn {
+            public global::System.Data.DataColumn CustomDateColumn {
                 get {
-                    return this.columnKmkName;
+                    return this.columnCustomDate;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn KsKingakuColumn {
+            public global::System.Data.DataColumn KmkNameColumn {
                 get {
-                    return this.columnKsKingaku;
+                    return this.columnKmkName;
                 }
             }
             
@@ -1738,17 +1742,17 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn ZanKingakuColumn {
+            public global::System.Data.DataColumn KsKingakuColumn {
                 get {
-                    return this.columnZanKingaku;
+                    return this.columnKsKingaku;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn CustomDateColumn {
+            public global::System.Data.DataColumn ZanKingakuColumn {
                 get {
-                    return this.columnCustomDate;
+                    return this.columnZanKingaku;
                 }
             }
             
@@ -1789,14 +1793,14 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public GenkinSuitochoRow AddGenkinSuitochoRow(string KmkName, decimal KsKingaku, decimal KrKingaku, decimal ZanKingaku, string CustomDate) {
+            public GenkinSuitochoRow AddGenkinSuitochoRow(string CustomDate, string KmkName, decimal KrKingaku, decimal KsKingaku, decimal ZanKingaku) {
                 GenkinSuitochoRow rowGenkinSuitochoRow = ((GenkinSuitochoRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
+                        CustomDate,
                         KmkName,
-                        KsKingaku,
                         KrKingaku,
-                        ZanKingaku,
-                        CustomDate};
+                        KsKingaku,
+                        ZanKingaku};
                 rowGenkinSuitochoRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowGenkinSuitochoRow);
                 return rowGenkinSuitochoRow;
@@ -1819,31 +1823,32 @@ namespace YayoiCsv {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
-                this.columnKmkName = base.Columns["KmkName"];
-                this.columnKsKingaku = base.Columns["KsKingaku"];
-                this.columnKrKingaku = base.Columns["KrKingaku"];
-                this.columnZanKingaku = base.Columns["ZanKingaku"];
                 this.columnCustomDate = base.Columns["CustomDate"];
+                this.columnKmkName = base.Columns["KmkName"];
+                this.columnKrKingaku = base.Columns["KrKingaku"];
+                this.columnKsKingaku = base.Columns["KsKingaku"];
+                this.columnZanKingaku = base.Columns["ZanKingaku"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             private void InitClass() {
-                this.columnKmkName = new global::System.Data.DataColumn("KmkName", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnKmkName);
-                this.columnKsKingaku = new global::System.Data.DataColumn("KsKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnKsKingaku);
-                this.columnKrKingaku = new global::System.Data.DataColumn("KrKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnKrKingaku);
-                this.columnZanKingaku = new global::System.Data.DataColumn("ZanKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnZanKingaku);
                 this.columnCustomDate = new global::System.Data.DataColumn("CustomDate", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCustomDate);
+                this.columnKmkName = new global::System.Data.DataColumn("KmkName", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnKmkName);
+                this.columnKrKingaku = new global::System.Data.DataColumn("KrKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnKrKingaku);
+                this.columnKsKingaku = new global::System.Data.DataColumn("KsKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnKsKingaku);
+                this.columnZanKingaku = new global::System.Data.DataColumn("ZanKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnZanKingaku);
+                this.columnCustomDate.Caption = "取引日付";
                 this.columnKmkName.AllowDBNull = false;
-                this.columnKmkName.Caption = "No";
-                this.columnKsKingaku.Caption = "KrKmkName";
-                this.columnKrKingaku.Caption = "KrHKmkName";
-                this.columnZanKingaku.Caption = "Kingaku";
+                this.columnKmkName.Caption = "科目名";
+                this.columnKrKingaku.Caption = "金額（借方）";
+                this.columnKsKingaku.Caption = "金額（貸方）";
+                this.columnZanKingaku.Caption = "残高";
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1977,21 +1982,21 @@ namespace YayoiCsv {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class YokinSuitochoDataTable : global::System.Data.TypedTableBase<YokinSuitochoRow> {
             
-            private global::System.Data.DataColumn columnKrKmkName;
-            
-            private global::System.Data.DataColumn columnKsKingaku;
-            
-            private global::System.Data.DataColumn columnKrKingaku;
-            
-            private global::System.Data.DataColumn columnZanKingaku;
-            
             private global::System.Data.DataColumn columnCustomDate;
+            
+            private global::System.Data.DataColumn columnKrKmkName;
             
             private global::System.Data.DataColumn columnKrHKmkName;
             
             private global::System.Data.DataColumn columnKsKmkName;
             
             private global::System.Data.DataColumn columnKsHKmkName;
+            
+            private global::System.Data.DataColumn columnKrKingaku;
+            
+            private global::System.Data.DataColumn columnKsKingaku;
+            
+            private global::System.Data.DataColumn columnZanKingaku;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -2028,41 +2033,17 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn KrKmkNameColumn {
-                get {
-                    return this.columnKrKmkName;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn KsKingakuColumn {
-                get {
-                    return this.columnKsKingaku;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn KrKingakuColumn {
-                get {
-                    return this.columnKrKingaku;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn ZanKingakuColumn {
-                get {
-                    return this.columnZanKingaku;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public global::System.Data.DataColumn CustomDateColumn {
                 get {
                     return this.columnCustomDate;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn KrKmkNameColumn {
+                get {
+                    return this.columnKrKmkName;
                 }
             }
             
@@ -2087,6 +2068,30 @@ namespace YayoiCsv {
             public global::System.Data.DataColumn KsHKmkNameColumn {
                 get {
                     return this.columnKsHKmkName;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn KrKingakuColumn {
+                get {
+                    return this.columnKrKingaku;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn KsKingakuColumn {
+                get {
+                    return this.columnKsKingaku;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn ZanKingakuColumn {
+                get {
+                    return this.columnZanKingaku;
                 }
             }
             
@@ -2127,17 +2132,17 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public YokinSuitochoRow AddYokinSuitochoRow(string KrKmkName, decimal KsKingaku, decimal KrKingaku, decimal ZanKingaku, string CustomDate, string KrHKmkName, string KsKmkName, string KsHKmkName) {
+            public YokinSuitochoRow AddYokinSuitochoRow(string CustomDate, string KrKmkName, string KrHKmkName, string KsKmkName, string KsHKmkName, decimal KrKingaku, decimal KsKingaku, decimal ZanKingaku) {
                 YokinSuitochoRow rowYokinSuitochoRow = ((YokinSuitochoRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        KrKmkName,
-                        KsKingaku,
-                        KrKingaku,
-                        ZanKingaku,
                         CustomDate,
+                        KrKmkName,
                         KrHKmkName,
                         KsKmkName,
-                        KsHKmkName};
+                        KsHKmkName,
+                        KrKingaku,
+                        KsKingaku,
+                        ZanKingaku};
                 rowYokinSuitochoRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowYokinSuitochoRow);
                 return rowYokinSuitochoRow;
@@ -2160,40 +2165,44 @@ namespace YayoiCsv {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
-                this.columnKrKmkName = base.Columns["KrKmkName"];
-                this.columnKsKingaku = base.Columns["KsKingaku"];
-                this.columnKrKingaku = base.Columns["KrKingaku"];
-                this.columnZanKingaku = base.Columns["ZanKingaku"];
                 this.columnCustomDate = base.Columns["CustomDate"];
+                this.columnKrKmkName = base.Columns["KrKmkName"];
                 this.columnKrHKmkName = base.Columns["KrHKmkName"];
                 this.columnKsKmkName = base.Columns["KsKmkName"];
                 this.columnKsHKmkName = base.Columns["KsHKmkName"];
+                this.columnKrKingaku = base.Columns["KrKingaku"];
+                this.columnKsKingaku = base.Columns["KsKingaku"];
+                this.columnZanKingaku = base.Columns["ZanKingaku"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             private void InitClass() {
-                this.columnKrKmkName = new global::System.Data.DataColumn("KrKmkName", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnKrKmkName);
-                this.columnKsKingaku = new global::System.Data.DataColumn("KsKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnKsKingaku);
-                this.columnKrKingaku = new global::System.Data.DataColumn("KrKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnKrKingaku);
-                this.columnZanKingaku = new global::System.Data.DataColumn("ZanKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnZanKingaku);
                 this.columnCustomDate = new global::System.Data.DataColumn("CustomDate", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCustomDate);
+                this.columnKrKmkName = new global::System.Data.DataColumn("KrKmkName", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnKrKmkName);
                 this.columnKrHKmkName = new global::System.Data.DataColumn("KrHKmkName", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnKrHKmkName);
                 this.columnKsKmkName = new global::System.Data.DataColumn("KsKmkName", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnKsKmkName);
                 this.columnKsHKmkName = new global::System.Data.DataColumn("KsHKmkName", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnKsHKmkName);
+                this.columnKrKingaku = new global::System.Data.DataColumn("KrKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnKrKingaku);
+                this.columnKsKingaku = new global::System.Data.DataColumn("KsKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnKsKingaku);
+                this.columnZanKingaku = new global::System.Data.DataColumn("ZanKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnZanKingaku);
+                this.columnCustomDate.Caption = "取引日付";
                 this.columnKrKmkName.AllowDBNull = false;
-                this.columnKrKmkName.Caption = "No";
-                this.columnKsKingaku.Caption = "KrKmkName";
-                this.columnKrKingaku.Caption = "KrHKmkName";
-                this.columnZanKingaku.Caption = "Kingaku";
+                this.columnKrKmkName.Caption = "科目名（借方）";
+                this.columnKrHKmkName.Caption = "補助科目名（借方）";
+                this.columnKsKmkName.Caption = "科目名（貸方）";
+                this.columnKsHKmkName.Caption = "補助科目名（貸方）";
+                this.columnKrKingaku.Caption = "金額（借方）";
+                this.columnKsKingaku.Caption = "金額（貸方）";
+                this.columnZanKingaku.Caption = "残高";
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2656,22 +2665,6 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public decimal Kingaku {
-                get {
-                    try {
-                        return ((decimal)(this[this.tableShisanSum.KingakuColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("テーブル \'ShisanSum\' にある列 \'Kingaku\' の値は DBNull です。", e);
-                    }
-                }
-                set {
-                    this[this.tableShisanSum.KingakuColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string HKmkName {
                 get {
                     try {
@@ -2683,6 +2676,22 @@ namespace YayoiCsv {
                 }
                 set {
                     this[this.tableShisanSum.HKmkNameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal Kingaku {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableShisanSum.KingakuColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("テーブル \'ShisanSum\' にある列 \'Kingaku\' の値は DBNull です。", e);
+                    }
+                }
+                set {
+                    this[this.tableShisanSum.KingakuColumn] = value;
                 }
             }
             
@@ -2700,18 +2709,6 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsKingakuNull() {
-                return this.IsNull(this.tableShisanSum.KingakuColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetKingakuNull() {
-                this[this.tableShisanSum.KingakuColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsHKmkNameNull() {
                 return this.IsNull(this.tableShisanSum.HKmkNameColumn);
             }
@@ -2720,6 +2717,18 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetHKmkNameNull() {
                 this[this.tableShisanSum.HKmkNameColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsKingakuNull() {
+                return this.IsNull(this.tableShisanSum.KingakuColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetKingakuNull() {
+                this[this.tableShisanSum.KingakuColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -2922,28 +2931,28 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string CustomDate {
+                get {
+                    try {
+                        return ((string)(this[this.tableGenkinSuitocho.CustomDateColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("テーブル \'GenkinSuitocho\' にある列 \'CustomDate\' の値は DBNull です。", e);
+                    }
+                }
+                set {
+                    this[this.tableGenkinSuitocho.CustomDateColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string KmkName {
                 get {
                     return ((string)(this[this.tableGenkinSuitocho.KmkNameColumn]));
                 }
                 set {
                     this[this.tableGenkinSuitocho.KmkNameColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public decimal KsKingaku {
-                get {
-                    try {
-                        return ((decimal)(this[this.tableGenkinSuitocho.KsKingakuColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("テーブル \'GenkinSuitocho\' にある列 \'KsKingaku\' の値は DBNull です。", e);
-                    }
-                }
-                set {
-                    this[this.tableGenkinSuitocho.KsKingakuColumn] = value;
                 }
             }
             
@@ -2965,6 +2974,22 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public decimal KsKingaku {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableGenkinSuitocho.KsKingakuColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("テーブル \'GenkinSuitocho\' にある列 \'KsKingaku\' の値は DBNull です。", e);
+                    }
+                }
+                set {
+                    this[this.tableGenkinSuitocho.KsKingakuColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public decimal ZanKingaku {
                 get {
                     try {
@@ -2981,30 +3006,14 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string CustomDate {
-                get {
-                    try {
-                        return ((string)(this[this.tableGenkinSuitocho.CustomDateColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("テーブル \'GenkinSuitocho\' にある列 \'CustomDate\' の値は DBNull です。", e);
-                    }
-                }
-                set {
-                    this[this.tableGenkinSuitocho.CustomDateColumn] = value;
-                }
+            public bool IsCustomDateNull() {
+                return this.IsNull(this.tableGenkinSuitocho.CustomDateColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsKsKingakuNull() {
-                return this.IsNull(this.tableGenkinSuitocho.KsKingakuColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetKsKingakuNull() {
-                this[this.tableGenkinSuitocho.KsKingakuColumn] = global::System.Convert.DBNull;
+            public void SetCustomDateNull() {
+                this[this.tableGenkinSuitocho.CustomDateColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3021,6 +3030,18 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsKsKingakuNull() {
+                return this.IsNull(this.tableGenkinSuitocho.KsKingakuColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetKsKingakuNull() {
+                this[this.tableGenkinSuitocho.KsKingakuColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsZanKingakuNull() {
                 return this.IsNull(this.tableGenkinSuitocho.ZanKingakuColumn);
             }
@@ -3029,18 +3050,6 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetZanKingakuNull() {
                 this[this.tableGenkinSuitocho.ZanKingakuColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsCustomDateNull() {
-                return this.IsNull(this.tableGenkinSuitocho.CustomDateColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetCustomDateNull() {
-                this[this.tableGenkinSuitocho.CustomDateColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -3056,65 +3065,6 @@ namespace YayoiCsv {
             internal YokinSuitochoRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
                 this.tableYokinSuitocho = ((YokinSuitochoDataTable)(this.Table));
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string KrKmkName {
-                get {
-                    return ((string)(this[this.tableYokinSuitocho.KrKmkNameColumn]));
-                }
-                set {
-                    this[this.tableYokinSuitocho.KrKmkNameColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public decimal KsKingaku {
-                get {
-                    try {
-                        return ((decimal)(this[this.tableYokinSuitocho.KsKingakuColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("テーブル \'YokinSuitocho\' にある列 \'KsKingaku\' の値は DBNull です。", e);
-                    }
-                }
-                set {
-                    this[this.tableYokinSuitocho.KsKingakuColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public decimal KrKingaku {
-                get {
-                    try {
-                        return ((decimal)(this[this.tableYokinSuitocho.KrKingakuColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("テーブル \'YokinSuitocho\' にある列 \'KrKingaku\' の値は DBNull です。", e);
-                    }
-                }
-                set {
-                    this[this.tableYokinSuitocho.KrKingakuColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public decimal ZanKingaku {
-                get {
-                    try {
-                        return ((decimal)(this[this.tableYokinSuitocho.ZanKingakuColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("テーブル \'YokinSuitocho\' にある列 \'ZanKingaku\' の値は DBNull です。", e);
-                    }
-                }
-                set {
-                    this[this.tableYokinSuitocho.ZanKingakuColumn] = value;
-                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3135,13 +3085,24 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string KrKmkName {
+                get {
+                    return ((string)(this[this.tableYokinSuitocho.KrKmkNameColumn]));
+                }
+                set {
+                    this[this.tableYokinSuitocho.KrKmkNameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string KrHKmkName {
                 get {
-                    try {
-                        return ((string)(this[this.tableYokinSuitocho.KrHKmkNameColumn]));
+                    if (this.IsKrHKmkNameNull()) {
+                        return string.Empty;
                     }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("テーブル \'YokinSuitocho\' にある列 \'KrHKmkName\' の値は DBNull です。", e);
+                    else {
+                        return ((string)(this[this.tableYokinSuitocho.KrHKmkNameColumn]));
                     }
                 }
                 set {
@@ -3183,38 +3144,50 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsKsKingakuNull() {
-                return this.IsNull(this.tableYokinSuitocho.KsKingakuColumn);
+            public decimal KrKingaku {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableYokinSuitocho.KrKingakuColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("テーブル \'YokinSuitocho\' にある列 \'KrKingaku\' の値は DBNull です。", e);
+                    }
+                }
+                set {
+                    this[this.tableYokinSuitocho.KrKingakuColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetKsKingakuNull() {
-                this[this.tableYokinSuitocho.KsKingakuColumn] = global::System.Convert.DBNull;
+            public decimal KsKingaku {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableYokinSuitocho.KsKingakuColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("テーブル \'YokinSuitocho\' にある列 \'KsKingaku\' の値は DBNull です。", e);
+                    }
+                }
+                set {
+                    this[this.tableYokinSuitocho.KsKingakuColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsKrKingakuNull() {
-                return this.IsNull(this.tableYokinSuitocho.KrKingakuColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetKrKingakuNull() {
-                this[this.tableYokinSuitocho.KrKingakuColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsZanKingakuNull() {
-                return this.IsNull(this.tableYokinSuitocho.ZanKingakuColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetZanKingakuNull() {
-                this[this.tableYokinSuitocho.ZanKingakuColumn] = global::System.Convert.DBNull;
+            public decimal ZanKingaku {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableYokinSuitocho.ZanKingakuColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("テーブル \'YokinSuitocho\' にある列 \'ZanKingaku\' の値は DBNull です。", e);
+                    }
+                }
+                set {
+                    this[this.tableYokinSuitocho.ZanKingakuColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3263,6 +3236,42 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetKsHKmkNameNull() {
                 this[this.tableYokinSuitocho.KsHKmkNameColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsKrKingakuNull() {
+                return this.IsNull(this.tableYokinSuitocho.KrKingakuColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetKrKingakuNull() {
+                this[this.tableYokinSuitocho.KrKingakuColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsKsKingakuNull() {
+                return this.IsNull(this.tableYokinSuitocho.KsKingakuColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetKsKingakuNull() {
+                this[this.tableYokinSuitocho.KsKingakuColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsZanKingakuNull() {
+                return this.IsNull(this.tableYokinSuitocho.ZanKingakuColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetZanKingakuNull() {
+                this[this.tableYokinSuitocho.ZanKingakuColumn] = global::System.Convert.DBNull;
             }
         }
         

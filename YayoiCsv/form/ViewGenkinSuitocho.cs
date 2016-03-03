@@ -43,5 +43,10 @@ namespace YayoiCsv
         {
             Static.CloseChildForm(this.GetType());
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Static.ExcelOutput(Static.ShiwakeDs.GenkinSuitocho.TableName);
+        }
     }
 }

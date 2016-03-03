@@ -91,5 +91,10 @@ namespace YayoiCsv
         {
             Search();
         }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            Static.ExcelOutput(Static.ShiwakeDs.YokinSuitocho.TableName);
+        }
     }
 }
