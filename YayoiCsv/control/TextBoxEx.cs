@@ -92,11 +92,11 @@ namespace YayoiCsv.control
         protected override void OnKeyDown(KeyEventArgs e)
         {
             base.OnKeyDown(e);
-            if (e.KeyCode == Keys.Enter)
-            {
-                SendKeys.SendWait("{TAB}");
-                e.Handled = true;
-            }
+            //if (e.KeyCode == Keys.Enter)
+            //{
+            //    SendKeys.SendWait("{TAB}");
+            //    e.Handled = true;
+            //}
 
         }
 

@@ -35,7 +35,6 @@ C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\弥生会計連携�
 C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\ClosedXML.dll
 C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\DocumentFormat.OpenXml.dll
 C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\ClosedXML.xml
-C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.csprojResolveAssemblyReference.cache
 C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.control.DataGridViewEx.resources
 C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.control.ComboBoxEx.resources
 C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.control.TextBoxEx.resources

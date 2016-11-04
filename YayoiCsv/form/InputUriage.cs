@@ -15,7 +15,7 @@ namespace YayoiCsv
     /// <summary>
     /// 売上入力
     /// </summary>
-    public partial class InputUriage : Form
+    public partial class InputUriage : control.FormEx
     {
         /// <summary>
         /// コンストラクタ

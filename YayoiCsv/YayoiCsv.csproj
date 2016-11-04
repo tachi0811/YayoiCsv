@@ -86,6 +86,9 @@
     <Compile Include="control\ComboBoxEx.Designer.cs">
       <DependentUpon>ComboBoxEx.cs</DependentUpon>
     </Compile>
+    <Compile Include="control\FormEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="control\TextBoxEx.cs">
       <SubType>Component</SubType>
     </Compile>

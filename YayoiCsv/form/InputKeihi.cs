@@ -14,7 +14,7 @@ namespace YayoiCsv
     /// <summary>
     /// 経費入力
     /// </summary>
-    public partial class InputKeihi : Form
+    public partial class InputKeihi : control.FormEx
     {
         /// <summary>
         /// コンストラクタ

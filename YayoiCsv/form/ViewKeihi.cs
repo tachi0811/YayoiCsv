@@ -15,7 +15,7 @@ namespace YayoiCsv
     /// <summary>
     /// 経費入力
     /// </summary>
-    public partial class ViewShiwake : Form
+    public partial class ViewShiwake : control.FormEx
     {
         /// <summary>
         /// コンストラクタ

@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace YayoiCsv
 {
-    public partial class InputNendo : Form
+    public partial class InputNendo : control.FormEx
     {
         /// <summary>
         /// コンストラクタ

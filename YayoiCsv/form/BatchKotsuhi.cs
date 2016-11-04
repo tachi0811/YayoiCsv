@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Windows.Forms;
+using YayoiCsv.control;
 
 namespace YayoiCsv
 {
     /// <summary>
     /// 交通費、平日出力バッチ
     /// </summary>
-    public partial class BatchKotsuhi : Form
+    public partial class BatchKotsuhi : FormEx
     {
         enum ClickType
         {

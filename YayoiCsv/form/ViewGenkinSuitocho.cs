@@ -15,7 +15,7 @@ namespace YayoiCsv
     /// <summary>
     ///  現金出納帳
     /// </summary>
-    public partial class ViewGenkinSuitocho : Form
+    public partial class ViewGenkinSuitocho : control.FormEx
     {
         /// <summary>
         /// コンストラクタ

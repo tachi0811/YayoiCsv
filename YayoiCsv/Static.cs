@@ -196,7 +196,7 @@ namespace YayoiCsv
         {
             ShiwakeDs.GenkinSuitocho.Clear();
             decimal zanKingaku = 0;
-            foreach (var shiwake in ShiwakeDs.Shiwake.Where(x => x.KrKmkName == "現金" || x.KsKmkName == "現金").OrderByDescending(x => x.KmkKbn).ThenBy(x => x.CustomDate))
+            foreach (var shiwake in ShiwakeDs.Shiwake.Where(x => x.KrKmkName == "現金" || x.KsKmkName == "現金").OrderBy(x => x.CustomDate).ThenByDescending(x => x.KmkKbn))
             {
                 var row = ShiwakeDs.GenkinSuitocho.NewGenkinSuitochoRow();
                 row.KmkName = shiwake.KrKmkName;

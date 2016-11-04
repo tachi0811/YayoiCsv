@@ -15,7 +15,7 @@ namespace YayoiCsv
     /// <summary>
     ///  資産表示
     /// </summary>
-    public partial class ViewShisan : Form
+    public partial class ViewShisan : control.FormEx
     {
         /// <summary>
         /// コンストラクタ
