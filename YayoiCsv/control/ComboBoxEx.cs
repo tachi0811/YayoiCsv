@@ -33,7 +33,8 @@ namespace YayoiCsv.control
             base.OnKeyDown(e);
             if (e.KeyCode == Keys.Enter)
             {
-                SendKeys.Send("{TAB}");
+                SendKeys.SendWait("{TAB}");
+                e.Handled = true;
             }
         }
     }

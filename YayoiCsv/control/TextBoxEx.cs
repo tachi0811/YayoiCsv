@@ -94,7 +94,8 @@ namespace YayoiCsv.control
             base.OnKeyDown(e);
             if (e.KeyCode == Keys.Enter)
             {
-                SendKeys.Send("{Tab}");
+                SendKeys.SendWait("{TAB}");
+                e.Handled = true;
             }
 
         }

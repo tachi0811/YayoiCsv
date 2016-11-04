@@ -24,3 +24,29 @@ C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\obj\D
 C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\bin\Debug\ClosedXML.dll
 C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\bin\Debug\DocumentFormat.OpenXml.dll
 C:\Users\CyberGrow\Documents\Visual Studio 2015\Projects\YayoiCsv\YayoiCsv\bin\Debug\ClosedXML.xml
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\弥生会計連携（ツール）.exe.config
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\弥生会計連携（ツール）.exe
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\弥生会計連携（ツール）.pdb
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\xml\hkmk.xml
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\xml\kmk.xml
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\xml\tax.xml
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\弥生会計連携（ツール）.exe
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\弥生会計連携（ツール）.pdb
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\ClosedXML.dll
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\bin\Debug\ClosedXML.xml
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.csprojResolveAssemblyReference.cache
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.control.DataGridViewEx.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.control.ComboBoxEx.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.control.TextBoxEx.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.InputUriage.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.ViewYokinSuitocho.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.ViewGenkinSuitocho.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.ViewShisan.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.ViewShiwake.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.InputKeihi.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.MDIParent.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.BatchKotsuhi.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.InputNendo.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.Properties.Resources.resources
+C:\Users\tachikawa\Source\Repos\YayoiCsv\YayoiCsv\obj\Debug\YayoiCsv.csproj.GenerateResource.Cache
