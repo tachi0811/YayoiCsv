@@ -1,24 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <kmks>
+
   <kmk>
     <kbn>経費</kbn>
-    <name>原価償却費</name>
+    <name>消耗品費</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>
-    <name>地代家賃</name>
+    <name>事務用品費</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>
-    <name>水道光熱費</name>
-  </kmk>
-  <kmk>
-    <kbn>経費</kbn>
-    <name>旅費交通費</name>
-  </kmk>
-  <kmk>
-    <kbn>経費</kbn>
-    <name>通信費</name>
+    <name>取材費</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>
@@ -26,7 +19,35 @@
   </kmk>
   <kmk>
     <kbn>経費</kbn>
-    <name>消耗品費</name>
+    <name>旅費交通費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>制作費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>新聞図書費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>広告宣伝費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>地代家賃</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>賃貸料</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>水道光熱費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>通信費</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>
@@ -34,7 +55,35 @@
   </kmk>
   <kmk>
     <kbn>経費</kbn>
-    <name>車両費</name>
+    <name>荷造運賃</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>外注費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>支払報酬</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>支払手数料</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>諸会費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>減価償却費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>修繕費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>車両関係費</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>
