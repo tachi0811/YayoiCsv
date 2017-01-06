@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <kmks>
-  <kmk>
-    <kbn>経費</kbn>
-    <name>旅費交通費</name>
-  </kmk>
-  <kmk>
-    <kbn>経費</kbn>
-    <name>取材費</name>
-  </kmk>	
-  <kmk>
-    <kbn>経費</kbn>
-    <name>制作費</name>
-  </kmk>
+
   <kmk>
     <kbn>経費</kbn>
     <name>消耗品費</name>
@@ -19,6 +8,22 @@
   <kmk>
     <kbn>経費</kbn>
     <name>事務用品費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>取材費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>接待交際費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>旅費交通費</name>
+  </kmk>
+  <kmk>
+    <kbn>経費</kbn>
+    <name>制作費</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>
@@ -51,10 +56,6 @@
   <kmk>
     <kbn>経費</kbn>
     <name>荷造運賃</name>
-  </kmk>
-  <kmk>
-    <kbn>経費</kbn>
-    <name>接待交際費</name>
   </kmk>
   <kmk>
     <kbn>経費</kbn>

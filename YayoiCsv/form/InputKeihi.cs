@@ -166,7 +166,7 @@ namespace YayoiCsv
             Static.SaveShiwakeXML();
 
             btnRepair.Enabled = false;
-            txtHi.Focus();
+            cmbHKmk_Kr.Focus();
 
         }
 
@@ -193,6 +193,7 @@ namespace YayoiCsv
             txtNo.Text = "";
             txtHi.Text = "";
             // txtKin.Text = "";
+            cmbHKmk_Kr.Focus();
 
         }
 

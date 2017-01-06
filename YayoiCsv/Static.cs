@@ -1053,6 +1053,8 @@ namespace YayoiCsv
             Static.ShiwakeDs.Shiwake.Clear();
             Static.ShiwakeDs.KeihiSum.Clear();
             Static.ShiwakeDs.ShisanSum.Clear();
+            Static.ShiwakeDs.GenkinSuitocho.Clear();
+            Static.ShiwakeDs.YokinSuitocho.Clear();
 
             if (System.IO.File.Exists(@"xml\shiwake\" + Static.Nendo.ToString() + ".xml"))
             {
