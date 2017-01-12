@@ -39,6 +39,7 @@ namespace YayoiCsv
 
                 ParentForm.Title = "弥生会計 経費入力 サポート (" + value.ToString() + "年度)";
                 SetNendoHoliday(Static.Nendo);
+                ReadZandakaXML();
                 ReadShiwakeXML();
                 ParentForm.MenuEnabled(true);
 
@@ -196,6 +197,16 @@ namespace YayoiCsv
         {
             ShiwakeDs.GenkinSuitocho.Clear();
             decimal zanKingaku = 0;
+            if (ShiwakeDs.Zandaka.Count != 0 && ShiwakeDs.Zandaka[0].GenKin.Trim() != string.Empty)
+            {
+                var row = ShiwakeDs.GenkinSuitocho.NewGenkinSuitochoRow();
+                row.KmkName = "前年繰越";
+                row.KrKingaku = 0;
+                row.KsKingaku = 0;
+                row.ZanKingaku = decimal.Parse(ShiwakeDs.Zandaka[0].GenKin);
+                ShiwakeDs.GenkinSuitocho.AddGenkinSuitochoRow(row);
+                zanKingaku = row.ZanKingaku;
+            }
             foreach (var shiwake in ShiwakeDs.Shiwake.Where(x => x.KrKmkName == "現金" || x.KsKmkName == "現金").OrderBy(x => x.CustomDate).ThenByDescending(x => x.KmkKbn))
             {
                 var row = ShiwakeDs.GenkinSuitocho.NewGenkinSuitochoRow();
@@ -226,6 +237,16 @@ namespace YayoiCsv
         {
             ShiwakeDs.YokinSuitocho.Clear();
             decimal zanKingaku = 0;
+            if (ShiwakeDs.Zandaka.Count != 0 && ShiwakeDs.Zandaka[0].YoKin.Trim() != string.Empty)
+            {
+                var row = ShiwakeDs.YokinSuitocho.NewYokinSuitochoRow();
+                row.KrKmkName = "前年繰越";
+                row.KrKingaku = 0;
+                row.KsKingaku = 0;
+                row.ZanKingaku = decimal.Parse(ShiwakeDs.Zandaka[0].YoKin);
+                ShiwakeDs.YokinSuitocho.AddYokinSuitochoRow(row);
+                zanKingaku = row.ZanKingaku;
+            }
             foreach (var shiwake in ShiwakeDs.Shiwake.Where(x => x.KrKmkName.IndexOf("預金") >= 0 || x.KsKmkName.IndexOf("預金") >= 0).OrderBy(x => x.KmkKbn).ThenBy(x => x.CustomDate))
             {
                 var row = ShiwakeDs.YokinSuitocho.NewYokinSuitochoRow();
@@ -434,6 +455,9 @@ namespace YayoiCsv
             xDoc.Save(@"xml\nendo.xml");
         }
 
+        /// <summary>
+        /// 年度読込
+        /// </summary>
         public static void ReadNendo()
         {
             if (System.IO.File.Exists(@"xml\nendo.xml"))
@@ -1055,10 +1079,37 @@ namespace YayoiCsv
             Static.ShiwakeDs.ShisanSum.Clear();
             Static.ShiwakeDs.GenkinSuitocho.Clear();
             Static.ShiwakeDs.YokinSuitocho.Clear();
-
+            
             if (System.IO.File.Exists(@"xml\shiwake\" + Static.Nendo.ToString() + ".xml"))
             {
                 Static.ShiwakeDs.Shiwake.ReadXml(@"xml\shiwake\" + Static.Nendo.ToString() + ".xml");
+            }
+            ShiwakeChanged();
+        }
+
+        #endregion
+
+        #region 残高データの保存／読込
+
+        public static void SaveZandakaXML()
+        {
+            if (!System.IO.Directory.Exists(@"xml\zandaka"))
+            {
+                System.IO.Directory.CreateDirectory(@"xml\zandaka");
+            }
+            Static.ShiwakeDs.Zandaka.WriteXml(@"xml\zandaka\" + Static.Nendo.ToString() + ".xml");
+            ShiwakeChanged();
+        }
+
+        /// <summary>
+        /// 残高データの読込
+        /// </summary>
+        public static void ReadZandakaXML()
+        {
+            Static.ShiwakeDs.Zandaka.Clear();
+            if (System.IO.File.Exists(@"xml\zandaka\" + Static.Nendo.ToString() + ".xml"))
+            {
+                Static.ShiwakeDs.Zandaka.ReadXml(@"xml\zandaka\" + Static.Nendo.ToString() + ".xml");
             }
             ShiwakeChanged();
         }

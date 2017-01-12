@@ -95,6 +95,12 @@
     <Compile Include="control\TextBoxEx.Designer.cs">
       <DependentUpon>TextBoxEx.cs</DependentUpon>
     </Compile>
+    <Compile Include="form\InputKurikoshi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\InputKurikoshi.Designer.cs">
+      <DependentUpon>InputKurikoshi.cs</DependentUpon>
+    </Compile>
     <Compile Include="form\InputUriage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="control\TextBoxEx.resx">
       <DependentUpon>TextBoxEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\InputKurikoshi.resx">
+      <DependentUpon>InputKurikoshi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form\InputUriage.resx">
       <DependentUpon>InputUriage.cs</DependentUpon>

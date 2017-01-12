@@ -192,5 +192,10 @@ namespace YayoiCsv
         {
             Static.ShowChildForm(typeof(ViewYokinSuitocho));
         }
+
+        private void miZandakaNyuryoku_Click(object sender, EventArgs e)
+        {
+            Static.ShowChildForm(typeof(InputKurikoshi));
+        }
     }
 }
