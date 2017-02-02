@@ -2373,6 +2373,8 @@ namespace YayoiCsv {
             
             private global::System.Data.DataColumn columnGenKin;
             
+            private global::System.Data.DataColumn columnUrikake;
+            
             private global::System.Data.DataColumn columnYoKin;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2413,6 +2415,14 @@ namespace YayoiCsv {
             public global::System.Data.DataColumn GenKinColumn {
                 get {
                     return this.columnGenKin;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn UrikakeColumn {
+                get {
+                    return this.columnUrikake;
                 }
             }
             
@@ -2461,10 +2471,11 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ZandakaRow AddZandakaRow(string GenKin, string YoKin) {
+            public ZandakaRow AddZandakaRow(string GenKin, string Urikake, string YoKin) {
                 ZandakaRow rowZandakaRow = ((ZandakaRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         GenKin,
+                        Urikake,
                         YoKin};
                 rowZandakaRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowZandakaRow);
@@ -2489,6 +2500,7 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
                 this.columnGenKin = base.Columns["GenKin"];
+                this.columnUrikake = base.Columns["Urikake"];
                 this.columnYoKin = base.Columns["YoKin"];
             }
             
@@ -2497,9 +2509,12 @@ namespace YayoiCsv {
             private void InitClass() {
                 this.columnGenKin = new global::System.Data.DataColumn("GenKin", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnGenKin);
+                this.columnUrikake = new global::System.Data.DataColumn("Urikake", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnUrikake);
                 this.columnYoKin = new global::System.Data.DataColumn("YoKin", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnYoKin);
                 this.columnGenKin.Caption = "現金";
+                this.columnUrikake.Caption = "売掛金";
                 this.columnYoKin.Caption = "預金";
             }
             
@@ -3605,6 +3620,22 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Urikake {
+                get {
+                    if (this.IsUrikakeNull()) {
+                        return string.Empty;
+                    }
+                    else {
+                        return ((string)(this[this.tableZandaka.UrikakeColumn]));
+                    }
+                }
+                set {
+                    this[this.tableZandaka.UrikakeColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string YoKin {
                 get {
                     if (this.IsYoKinNull()) {
@@ -3629,6 +3660,18 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetGenKinNull() {
                 this[this.tableZandaka.GenKinColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsUrikakeNull() {
+                return this.IsNull(this.tableZandaka.UrikakeColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetUrikakeNull() {
+                this[this.tableZandaka.UrikakeColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

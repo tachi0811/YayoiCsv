@@ -35,11 +35,15 @@
             this.txtGenKin = new YayoiCsv.control.TextBoxEx();
             this.label3 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
+            this.txtUrikake = new YayoiCsv.control.TextBoxEx();
+            this.lblUrikake = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtUrikake);
+            this.groupBox1.Controls.Add(this.lblUrikake);
             this.groupBox1.Controls.Add(this.btnRegist);
             this.groupBox1.Controls.Add(this.txtYoKin);
             this.groupBox1.Controls.Add(this.label1);
@@ -47,15 +51,15 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Location = new System.Drawing.Point(5, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(339, 87);
-            this.groupBox1.TabIndex = 1;
+            this.groupBox1.Size = new System.Drawing.Size(339, 139);
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "繰越金額";
             // 
             // btnRegist
             // 
             this.btnRegist.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnRegist.Location = new System.Drawing.Point(247, 21);
+            this.btnRegist.Location = new System.Drawing.Point(247, 55);
             this.btnRegist.Name = "btnRegist";
             this.btnRegist.Size = new System.Drawing.Size(86, 57);
             this.btnRegist.TabIndex = 3;
@@ -70,7 +74,7 @@
             this.txtYoKin.MaxLength = 7;
             this.txtYoKin.Name = "txtYoKin";
             this.txtYoKin.Size = new System.Drawing.Size(117, 23);
-            this.txtYoKin.TabIndex = 2;
+            this.txtYoKin.TabIndex = 1;
             this.txtYoKin.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label1
@@ -92,7 +96,7 @@
             this.txtGenKin.MaxLength = 7;
             this.txtGenKin.Name = "txtGenKin";
             this.txtGenKin.Size = new System.Drawing.Size(117, 23);
-            this.txtGenKin.TabIndex = 1;
+            this.txtGenKin.TabIndex = 0;
             this.txtGenKin.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
@@ -115,16 +119,38 @@
             this.btnClose.Location = new System.Drawing.Point(355, 12);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(30, 30);
-            this.btnClose.TabIndex = 24;
+            this.btnClose.TabIndex = 1;
             this.btnClose.Text = "×";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // txtUrikake
+            // 
+            this.txtUrikake.InputType = YayoiCsv.control.InputType.Number;
+            this.txtUrikake.Location = new System.Drawing.Point(124, 88);
+            this.txtUrikake.MaxLength = 7;
+            this.txtUrikake.Name = "txtUrikake";
+            this.txtUrikake.Size = new System.Drawing.Size(117, 23);
+            this.txtUrikake.TabIndex = 2;
+            this.txtUrikake.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // lblUrikake
+            // 
+            this.lblUrikake.BackColor = System.Drawing.Color.YellowGreen;
+            this.lblUrikake.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblUrikake.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblUrikake.Location = new System.Drawing.Point(17, 88);
+            this.lblUrikake.Name = "lblUrikake";
+            this.lblUrikake.Size = new System.Drawing.Size(101, 23);
+            this.lblUrikake.TabIndex = 28;
+            this.lblUrikake.Text = "売掛金";
+            this.lblUrikake.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // InputKurikoshi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(397, 105);
+            this.ClientSize = new System.Drawing.Size(397, 156);
             this.ControlBox = false;
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.groupBox1);
@@ -150,6 +176,8 @@
         private control.TextBoxEx txtYoKin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnRegist;
+        private control.TextBoxEx txtUrikake;
+        private System.Windows.Forms.Label lblUrikake;
     }
 }
 

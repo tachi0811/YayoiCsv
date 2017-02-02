@@ -68,6 +68,7 @@ namespace YayoiCsv
 
             txtGenKin.DataBindings.Add("Text", bindingSource, "Genkin");
             txtYoKin.DataBindings.Add("Text", bindingSource, "Yokin");
+            txtUrikake.DataBindings.Add("Text", bindingSource, "Urikake");
             bindingSource.BindingComplete += new BindingCompleteEventHandler(bindingSource_BindingComplete);
         }
     }

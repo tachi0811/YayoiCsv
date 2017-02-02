@@ -207,7 +207,7 @@ namespace YayoiCsv
             }
 
             DateTime dt;
-            if (!DateTime.TryParse(txtHi.Text.Substring(0, 2) + "/" + txtHi.Text.Substring(2, 2), out dt))
+            if (!DateTime.TryParse(Static.Nendo + "/" + txtHi.Text.Substring(0, 2) + "/" + txtHi.Text.Substring(2, 2), out dt))
             {
                 MessageBox.Show("日付が間違っています。\n正しい日付を入力してください。", "入力エラー", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtHi.Text = "";

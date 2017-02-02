@@ -12,7 +12,7 @@
     <Shape ID="DesignTable:FormPosition" ZOrder="5" X="1031" Y="45" Height="305" Width="152" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="301" />
     <Shape ID="DesignTable:GenkinSuitocho" ZOrder="3" X="169" Y="109" Height="136" Width="168" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="132" />
     <Shape ID="DesignTable:YokinSuitocho" ZOrder="4" X="349" Y="110" Height="199" Width="159" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="195" />
-    <Shape ID="DesignTable:Zandaka" ZOrder="1" X="322" Y="433" Height="67" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="63" />
+    <Shape ID="DesignTable:Zandaka" ZOrder="1" X="322" Y="433" Height="86" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="82" />
   </Shapes>
   <Connectors />
 </DiagramLayout>

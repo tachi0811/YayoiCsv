@@ -143,6 +143,19 @@ namespace YayoiCsv
                 {
                     row.Kingaku = kingaku;
                 }
+
+                // 売掛の前年度引継ぎ
+                // ToDo : 今のところ補助科目の考慮が無いので、処理を追加する必要がある
+                if (ShiwakeDs.Zandaka.Count != 0 && ShiwakeDs.Zandaka[0].Urikake.Trim() != string.Empty)
+                {
+                    if (row.KmkName == "売掛金")
+                    {
+                        int o = 0;
+                        int.TryParse(ShiwakeDs.Zandaka[0].Urikake, out o);
+                        row.Kingaku = row.Kingaku += o;
+                    }
+                }
+
                 ShiwakeDs.ShisanSum.AddShisanSumRow(row);
             }
 
@@ -179,6 +192,7 @@ namespace YayoiCsv
             var rowUriageKeihi = ShiwakeDs.ShisanSum.NewShisanSumRow();
             rowUriageKeihi.KmkName = "売上高 - 軽費";
             rowUriageKeihi.Kingaku = uriage - keihi;
+
             ShiwakeDs.ShisanSum.AddShisanSumRow(rowUriageKeihi);
 
             // ------------------------------------------------------------------

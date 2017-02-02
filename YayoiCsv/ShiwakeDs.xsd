@@ -12,7 +12,7 @@
   <xs:element name="ShiwakeDs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ShiwakeDs" msprop:Generator_UserDSName="ShiwakeDs">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Shiwake" msprop:Generator_TableClassName="ShiwakeDataTable" msprop:Generator_TableVarName="tableShiwake" msprop:Generator_RowChangedName="ShiwakeRowChanged" msprop:Generator_TablePropName="Shiwake" msprop:Generator_RowDeletingName="ShiwakeRowDeleting" msprop:Generator_RowChangingName="ShiwakeRowChanging" msprop:Generator_RowEvHandlerName="ShiwakeRowChangeEventHandler" msprop:Generator_RowDeletedName="ShiwakeRowDeleted" msprop:Generator_RowClassName="ShiwakeRow" msprop:Generator_UserTableName="Shiwake" msprop:Generator_RowEvArgName="ShiwakeRowChangeEvent">
+        <xs:element name="Shiwake" msprop:Generator_TableClassName="ShiwakeDataTable" msprop:Generator_TableVarName="tableShiwake" msprop:Generator_TablePropName="Shiwake" msprop:Generator_RowDeletingName="ShiwakeRowDeleting" msprop:Generator_RowChangingName="ShiwakeRowChanging" msprop:Generator_RowEvHandlerName="ShiwakeRowChangeEventHandler" msprop:Generator_RowDeletedName="ShiwakeRowDeleted" msprop:Generator_UserTableName="Shiwake" msprop:Generator_RowChangedName="ShiwakeRowChanged" msprop:Generator_RowEvArgName="ShiwakeRowChangeEvent" msprop:Generator_RowClassName="ShiwakeRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="No" msprop:Generator_ColumnVarNameInTable="columnNo" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_UserColumnName="No" type="xs:int" />
@@ -27,7 +27,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="KeihiSum" msprop:Generator_TableClassName="KeihiSumDataTable" msprop:Generator_TableVarName="tableKeihiSum" msprop:Generator_RowChangedName="KeihiSumRowChanged" msprop:Generator_TablePropName="KeihiSum" msprop:Generator_RowDeletingName="KeihiSumRowDeleting" msprop:Generator_RowChangingName="KeihiSumRowChanging" msprop:Generator_RowEvHandlerName="KeihiSumRowChangeEventHandler" msprop:Generator_RowDeletedName="KeihiSumRowDeleted" msprop:Generator_RowClassName="KeihiSumRow" msprop:Generator_UserTableName="KeihiSum" msprop:Generator_RowEvArgName="KeihiSumRowChangeEvent">
+        <xs:element name="KeihiSum" msprop:Generator_TableClassName="KeihiSumDataTable" msprop:Generator_TableVarName="tableKeihiSum" msprop:Generator_TablePropName="KeihiSum" msprop:Generator_RowDeletingName="KeihiSumRowDeleting" msprop:Generator_RowChangingName="KeihiSumRowChanging" msprop:Generator_RowEvHandlerName="KeihiSumRowChangeEventHandler" msprop:Generator_RowDeletedName="KeihiSumRowDeleted" msprop:Generator_UserTableName="KeihiSum" msprop:Generator_RowChangedName="KeihiSumRowChanged" msprop:Generator_RowEvArgName="KeihiSumRowChangeEvent" msprop:Generator_RowClassName="KeihiSumRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="KrKmkName" msdata:Caption="科目名" msprop:Generator_ColumnVarNameInTable="columnKrKmkName" msprop:Generator_ColumnPropNameInRow="KrKmkName" msprop:Generator_ColumnPropNameInTable="KrKmkNameColumn" msprop:Generator_UserColumnName="KrKmkName" type="xs:string" minOccurs="0" />
@@ -35,7 +35,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="ShisanSum" msprop:Generator_TableClassName="ShisanSumDataTable" msprop:Generator_TableVarName="tableShisanSum" msprop:Generator_RowChangedName="ShisanSumRowChanged" msprop:Generator_TablePropName="ShisanSum" msprop:Generator_RowDeletingName="ShisanSumRowDeleting" msprop:Generator_RowChangingName="ShisanSumRowChanging" msprop:Generator_RowEvHandlerName="ShisanSumRowChangeEventHandler" msprop:Generator_RowDeletedName="ShisanSumRowDeleted" msprop:Generator_RowClassName="ShisanSumRow" msprop:Generator_UserTableName="ShisanSum" msprop:Generator_RowEvArgName="ShisanSumRowChangeEvent">
+        <xs:element name="ShisanSum" msprop:Generator_TableClassName="ShisanSumDataTable" msprop:Generator_TableVarName="tableShisanSum" msprop:Generator_TablePropName="ShisanSum" msprop:Generator_RowDeletingName="ShisanSumRowDeleting" msprop:Generator_RowChangingName="ShisanSumRowChanging" msprop:Generator_RowEvHandlerName="ShisanSumRowChangeEventHandler" msprop:Generator_RowDeletedName="ShisanSumRowDeleted" msprop:Generator_UserTableName="ShisanSum" msprop:Generator_RowChangedName="ShisanSumRowChanged" msprop:Generator_RowEvArgName="ShisanSumRowChangeEvent" msprop:Generator_RowClassName="ShisanSumRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="KmkName" msdata:Caption="科目名" msprop:Generator_ColumnVarNameInTable="columnKmkName" msprop:Generator_ColumnPropNameInRow="KmkName" msprop:Generator_ColumnPropNameInTable="KmkNameColumn" msprop:Generator_UserColumnName="KmkName" type="xs:string" minOccurs="0" />
@@ -44,7 +44,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="FormPosition" msprop:Generator_TableClassName="FormPositionDataTable" msprop:Generator_TableVarName="tableFormPosition" msprop:Generator_TablePropName="FormPosition" msprop:Generator_RowDeletingName="FormPositionRowDeleting" msprop:Generator_RowChangingName="FormPositionRowChanging" msprop:Generator_RowEvHandlerName="FormPositionRowChangeEventHandler" msprop:Generator_RowDeletedName="FormPositionRowDeleted" msprop:Generator_UserTableName="FormPosition" msprop:Generator_RowChangedName="FormPositionRowChanged" msprop:Generator_RowEvArgName="FormPositionRowChangeEvent" msprop:Generator_RowClassName="FormPositionRow">
+        <xs:element name="FormPosition" msprop:Generator_TableClassName="FormPositionDataTable" msprop:Generator_TableVarName="tableFormPosition" msprop:Generator_RowChangedName="FormPositionRowChanged" msprop:Generator_TablePropName="FormPosition" msprop:Generator_RowDeletingName="FormPositionRowDeleting" msprop:Generator_RowChangingName="FormPositionRowChanging" msprop:Generator_RowEvHandlerName="FormPositionRowChangeEventHandler" msprop:Generator_RowDeletedName="FormPositionRowDeleted" msprop:Generator_RowClassName="FormPositionRow" msprop:Generator_UserTableName="FormPosition" msprop:Generator_RowEvArgName="FormPositionRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="FormName" msprop:Generator_ColumnVarNameInTable="columnFormName" msprop:Generator_ColumnPropNameInRow="FormName" msprop:Generator_ColumnPropNameInTable="FormNameColumn" msprop:Generator_UserColumnName="FormName" type="xs:string" minOccurs="0" />
@@ -56,7 +56,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="GenkinSuitocho" msprop:Generator_TableClassName="GenkinSuitochoDataTable" msprop:Generator_TableVarName="tableGenkinSuitocho" msprop:Generator_TablePropName="GenkinSuitocho" msprop:Generator_RowDeletingName="GenkinSuitochoRowDeleting" msprop:Generator_RowChangingName="GenkinSuitochoRowChanging" msprop:Generator_RowEvHandlerName="GenkinSuitochoRowChangeEventHandler" msprop:Generator_RowDeletedName="GenkinSuitochoRowDeleted" msprop:Generator_UserTableName="GenkinSuitocho" msprop:Generator_RowChangedName="GenkinSuitochoRowChanged" msprop:Generator_RowEvArgName="GenkinSuitochoRowChangeEvent" msprop:Generator_RowClassName="GenkinSuitochoRow">
+        <xs:element name="GenkinSuitocho" msprop:Generator_TableClassName="GenkinSuitochoDataTable" msprop:Generator_TableVarName="tableGenkinSuitocho" msprop:Generator_RowChangedName="GenkinSuitochoRowChanged" msprop:Generator_TablePropName="GenkinSuitocho" msprop:Generator_RowDeletingName="GenkinSuitochoRowDeleting" msprop:Generator_RowChangingName="GenkinSuitochoRowChanging" msprop:Generator_RowEvHandlerName="GenkinSuitochoRowChangeEventHandler" msprop:Generator_RowDeletedName="GenkinSuitochoRowDeleted" msprop:Generator_RowClassName="GenkinSuitochoRow" msprop:Generator_UserTableName="GenkinSuitocho" msprop:Generator_RowEvArgName="GenkinSuitochoRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="CustomDate" msdata:Caption="取引日付" msprop:Generator_ColumnVarNameInTable="columnCustomDate" msprop:Generator_ColumnPropNameInRow="CustomDate" msprop:Generator_ColumnPropNameInTable="CustomDateColumn" msprop:Generator_UserColumnName="CustomDate" type="xs:string" minOccurs="0" />
@@ -67,7 +67,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="YokinSuitocho" msprop:Generator_TableClassName="YokinSuitochoDataTable" msprop:Generator_TableVarName="tableYokinSuitocho" msprop:Generator_TablePropName="YokinSuitocho" msprop:Generator_RowDeletingName="YokinSuitochoRowDeleting" msprop:Generator_RowChangingName="YokinSuitochoRowChanging" msprop:Generator_RowEvHandlerName="YokinSuitochoRowChangeEventHandler" msprop:Generator_RowDeletedName="YokinSuitochoRowDeleted" msprop:Generator_UserTableName="YokinSuitocho" msprop:Generator_RowChangedName="YokinSuitochoRowChanged" msprop:Generator_RowEvArgName="YokinSuitochoRowChangeEvent" msprop:Generator_RowClassName="YokinSuitochoRow">
+        <xs:element name="YokinSuitocho" msprop:Generator_TableClassName="YokinSuitochoDataTable" msprop:Generator_TableVarName="tableYokinSuitocho" msprop:Generator_RowChangedName="YokinSuitochoRowChanged" msprop:Generator_TablePropName="YokinSuitocho" msprop:Generator_RowDeletingName="YokinSuitochoRowDeleting" msprop:Generator_RowChangingName="YokinSuitochoRowChanging" msprop:Generator_RowEvHandlerName="YokinSuitochoRowChangeEventHandler" msprop:Generator_RowDeletedName="YokinSuitochoRowDeleted" msprop:Generator_RowClassName="YokinSuitochoRow" msprop:Generator_UserTableName="YokinSuitocho" msprop:Generator_RowEvArgName="YokinSuitochoRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="CustomDate" msdata:Caption="取引日付" msprop:Generator_ColumnVarNameInTable="columnCustomDate" msprop:Generator_ColumnPropNameInRow="CustomDate" msprop:Generator_ColumnPropNameInTable="CustomDateColumn" msprop:Generator_UserColumnName="CustomDate" type="xs:string" minOccurs="0" />
@@ -81,10 +81,11 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Zandaka" msprop:Generator_TableClassName="ZandakaDataTable" msprop:Generator_TableVarName="tableZandaka" msprop:Generator_TablePropName="Zandaka" msprop:Generator_RowDeletingName="ZandakaRowDeleting" msprop:Generator_RowChangingName="ZandakaRowChanging" msprop:Generator_RowEvHandlerName="ZandakaRowChangeEventHandler" msprop:Generator_RowDeletedName="ZandakaRowDeleted" msprop:Generator_UserTableName="Zandaka" msprop:Generator_RowChangedName="ZandakaRowChanged" msprop:Generator_RowEvArgName="ZandakaRowChangeEvent" msprop:Generator_RowClassName="ZandakaRow">
+        <xs:element name="Zandaka" msprop:Generator_TableClassName="ZandakaDataTable" msprop:Generator_TableVarName="tableZandaka" msprop:Generator_RowChangedName="ZandakaRowChanged" msprop:Generator_TablePropName="Zandaka" msprop:Generator_RowDeletingName="ZandakaRowDeleting" msprop:Generator_RowChangingName="ZandakaRowChanging" msprop:Generator_RowEvHandlerName="ZandakaRowChangeEventHandler" msprop:Generator_RowDeletedName="ZandakaRowDeleted" msprop:Generator_RowClassName="ZandakaRow" msprop:Generator_UserTableName="Zandaka" msprop:Generator_RowEvArgName="ZandakaRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="GenKin" msdata:Caption="現金" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="GenKin" msprop:Generator_ColumnVarNameInTable="columnGenKin" msprop:Generator_ColumnPropNameInTable="GenKinColumn" msprop:Generator_UserColumnName="GenKin" type="xs:string" minOccurs="0" />
+              <xs:element name="Urikake" msdata:Caption="売掛金" msprop:Generator_ColumnVarNameInTable="columnUrikake" msprop:Generator_ColumnPropNameInRow="Urikake" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInTable="UrikakeColumn" msprop:Generator_UserColumnName="Urikake" type="xs:string" minOccurs="0" />
               <xs:element name="YoKin" msdata:Caption="預金" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="YoKin" msprop:Generator_ColumnVarNameInTable="columnYoKin" msprop:Generator_ColumnPropNameInTable="YoKinColumn" msprop:Generator_UserColumnName="YoKin" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
