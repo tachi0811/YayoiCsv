@@ -8,28 +8,4 @@
     <Left>-8</Left>
     <WindowState>2</WindowState>
   </FormPosition>
-  <FormPosition>
-    <FormName>YayoiCsv.InputKeihi</FormName>
-    <Height>641</Height>
-    <Width>927</Width>
-    <Top>28</Top>
-    <Left>38</Left>
-    <WindowState>0</WindowState>
-  </FormPosition>
-  <FormPosition>
-    <FormName>YayoiCsv.BatchKotsuhi</FormName>
-    <Height>243</Height>
-    <Width>341</Width>
-    <Top>34</Top>
-    <Left>982</Left>
-    <WindowState>0</WindowState>
-  </FormPosition>
-  <FormPosition>
-    <FormName>YayoiCsv.ViewGenkinSuitocho</FormName>
-    <Height>501</Height>
-    <Width>560</Width>
-    <Top>52</Top>
-    <Left>52</Left>
-    <WindowState>0</WindowState>
-  </FormPosition>
 </ShiwakeDs>

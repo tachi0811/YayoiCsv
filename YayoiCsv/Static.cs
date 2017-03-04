@@ -190,7 +190,7 @@ namespace YayoiCsv
             ShiwakeDs.ShisanSum.AddShisanSumRow(rowKeihi);
 
             var rowUriageKeihi = ShiwakeDs.ShisanSum.NewShisanSumRow();
-            rowUriageKeihi.KmkName = "売上高 - 軽費";
+            rowUriageKeihi.KmkName = "売上高 - 経費";
             rowUriageKeihi.Kingaku = uriage - keihi;
 
             ShiwakeDs.ShisanSum.AddShisanSumRow(rowUriageKeihi);
@@ -425,10 +425,14 @@ namespace YayoiCsv
             Static.ShiwakeDs.FormPosition.Clear();
             SetFormPositionRow(ParentForm);
 
-            foreach (var form in ChildFormList)
+            if (ChildFormList != null)
             {
-                SetFormPositionRow(form);
+                foreach (var form in ChildFormList)
+                {
+                    SetFormPositionRow(form);
+                }
             }
+
             Static.ShiwakeDs.FormPosition.WriteXml(@"xml\form_position.xml");
         }
 
