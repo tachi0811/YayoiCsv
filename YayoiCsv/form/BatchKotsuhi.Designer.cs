@@ -30,6 +30,7 @@
         {
             this.btnYayoiCSV = new System.Windows.Forms.Button();
             this.grpBox = new System.Windows.Forms.GroupBox();
+            this.rdoYobi = new System.Windows.Forms.RadioButton();
             this.rdoYear = new System.Windows.Forms.RadioButton();
             this.rdoHoliday = new System.Windows.Forms.RadioButton();
             this.rdoNormal = new System.Windows.Forms.RadioButton();
@@ -43,14 +44,13 @@
             this.btnShiwakeAdd = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.grpYobi = new System.Windows.Forms.GroupBox();
-            this.chkYobiNichi = new System.Windows.Forms.CheckBox();
-            this.chkYobiSui = new System.Windows.Forms.CheckBox();
-            this.chkYobiMoku = new System.Windows.Forms.CheckBox();
-            this.chkYobiKin = new System.Windows.Forms.CheckBox();
-            this.chkYobiDo = new System.Windows.Forms.CheckBox();
-            this.chkYobiKa = new System.Windows.Forms.CheckBox();
             this.chkYobiGetsu = new System.Windows.Forms.CheckBox();
-            this.rdoYobi = new System.Windows.Forms.RadioButton();
+            this.chkYobiKa = new System.Windows.Forms.CheckBox();
+            this.chkYobiDo = new System.Windows.Forms.CheckBox();
+            this.chkYobiKin = new System.Windows.Forms.CheckBox();
+            this.chkYobiMoku = new System.Windows.Forms.CheckBox();
+            this.chkYobiSui = new System.Windows.Forms.CheckBox();
+            this.chkYobiNichi = new System.Windows.Forms.CheckBox();
             this.grpBox.SuspendLayout();
             this.grpYobi.SuspendLayout();
             this.SuspendLayout();
@@ -76,6 +76,16 @@
             this.grpBox.Size = new System.Drawing.Size(390, 57);
             this.grpBox.TabIndex = 0;
             this.grpBox.TabStop = false;
+            // 
+            // rdoYobi
+            // 
+            this.rdoYobi.AutoSize = true;
+            this.rdoYobi.Location = new System.Drawing.Point(158, 22);
+            this.rdoYobi.Name = "rdoYobi";
+            this.rdoYobi.Size = new System.Drawing.Size(73, 19);
+            this.rdoYobi.TabIndex = 3;
+            this.rdoYobi.Text = "曜日指定";
+            this.rdoYobi.UseVisualStyleBackColor = true;
             // 
             // rdoYear
             // 
@@ -222,66 +232,7 @@
             this.grpYobi.Size = new System.Drawing.Size(390, 55);
             this.grpYobi.TabIndex = 13;
             this.grpYobi.TabStop = false;
-            // 
-            // chkYobiNichi
-            // 
-            this.chkYobiNichi.AutoSize = true;
-            this.chkYobiNichi.Location = new System.Drawing.Point(6, 22);
-            this.chkYobiNichi.Name = "chkYobiNichi";
-            this.chkYobiNichi.Size = new System.Drawing.Size(38, 19);
-            this.chkYobiNichi.TabIndex = 14;
-            this.chkYobiNichi.Text = "日";
-            this.chkYobiNichi.UseVisualStyleBackColor = true;
-            // 
-            // chkYobiSui
-            // 
-            this.chkYobiSui.AutoSize = true;
-            this.chkYobiSui.Location = new System.Drawing.Point(138, 22);
-            this.chkYobiSui.Name = "chkYobiSui";
-            this.chkYobiSui.Size = new System.Drawing.Size(38, 19);
-            this.chkYobiSui.TabIndex = 15;
-            this.chkYobiSui.Text = "水";
-            this.chkYobiSui.UseVisualStyleBackColor = true;
-            // 
-            // chkYobiMoku
-            // 
-            this.chkYobiMoku.AutoSize = true;
-            this.chkYobiMoku.Location = new System.Drawing.Point(182, 22);
-            this.chkYobiMoku.Name = "chkYobiMoku";
-            this.chkYobiMoku.Size = new System.Drawing.Size(38, 19);
-            this.chkYobiMoku.TabIndex = 16;
-            this.chkYobiMoku.Text = "木";
-            this.chkYobiMoku.UseVisualStyleBackColor = true;
-            // 
-            // chkYobiKin
-            // 
-            this.chkYobiKin.AutoSize = true;
-            this.chkYobiKin.Location = new System.Drawing.Point(226, 22);
-            this.chkYobiKin.Name = "chkYobiKin";
-            this.chkYobiKin.Size = new System.Drawing.Size(38, 19);
-            this.chkYobiKin.TabIndex = 17;
-            this.chkYobiKin.Text = "金";
-            this.chkYobiKin.UseVisualStyleBackColor = true;
-            // 
-            // chkYobiDo
-            // 
-            this.chkYobiDo.AutoSize = true;
-            this.chkYobiDo.Location = new System.Drawing.Point(270, 22);
-            this.chkYobiDo.Name = "chkYobiDo";
-            this.chkYobiDo.Size = new System.Drawing.Size(38, 19);
-            this.chkYobiDo.TabIndex = 18;
-            this.chkYobiDo.Text = "土";
-            this.chkYobiDo.UseVisualStyleBackColor = true;
-            // 
-            // chkYobiKa
-            // 
-            this.chkYobiKa.AutoSize = true;
-            this.chkYobiKa.Location = new System.Drawing.Point(94, 22);
-            this.chkYobiKa.Name = "chkYobiKa";
-            this.chkYobiKa.Size = new System.Drawing.Size(38, 19);
-            this.chkYobiKa.TabIndex = 19;
-            this.chkYobiKa.Text = "火";
-            this.chkYobiKa.UseVisualStyleBackColor = true;
+            this.grpYobi.Text = "曜日指定時のみ有効";
             // 
             // chkYobiGetsu
             // 
@@ -293,15 +244,65 @@
             this.chkYobiGetsu.Text = "月";
             this.chkYobiGetsu.UseVisualStyleBackColor = true;
             // 
-            // rdoYobi
+            // chkYobiKa
             // 
-            this.rdoYobi.AutoSize = true;
-            this.rdoYobi.Location = new System.Drawing.Point(158, 22);
-            this.rdoYobi.Name = "rdoYobi";
-            this.rdoYobi.Size = new System.Drawing.Size(73, 19);
-            this.rdoYobi.TabIndex = 3;
-            this.rdoYobi.Text = "曜日指定";
-            this.rdoYobi.UseVisualStyleBackColor = true;
+            this.chkYobiKa.AutoSize = true;
+            this.chkYobiKa.Location = new System.Drawing.Point(94, 22);
+            this.chkYobiKa.Name = "chkYobiKa";
+            this.chkYobiKa.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiKa.TabIndex = 19;
+            this.chkYobiKa.Text = "火";
+            this.chkYobiKa.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiDo
+            // 
+            this.chkYobiDo.AutoSize = true;
+            this.chkYobiDo.Location = new System.Drawing.Point(270, 22);
+            this.chkYobiDo.Name = "chkYobiDo";
+            this.chkYobiDo.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiDo.TabIndex = 18;
+            this.chkYobiDo.Text = "土";
+            this.chkYobiDo.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiKin
+            // 
+            this.chkYobiKin.AutoSize = true;
+            this.chkYobiKin.Location = new System.Drawing.Point(226, 22);
+            this.chkYobiKin.Name = "chkYobiKin";
+            this.chkYobiKin.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiKin.TabIndex = 17;
+            this.chkYobiKin.Text = "金";
+            this.chkYobiKin.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiMoku
+            // 
+            this.chkYobiMoku.AutoSize = true;
+            this.chkYobiMoku.Location = new System.Drawing.Point(182, 22);
+            this.chkYobiMoku.Name = "chkYobiMoku";
+            this.chkYobiMoku.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiMoku.TabIndex = 16;
+            this.chkYobiMoku.Text = "木";
+            this.chkYobiMoku.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiSui
+            // 
+            this.chkYobiSui.AutoSize = true;
+            this.chkYobiSui.Location = new System.Drawing.Point(138, 22);
+            this.chkYobiSui.Name = "chkYobiSui";
+            this.chkYobiSui.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiSui.TabIndex = 15;
+            this.chkYobiSui.Text = "水";
+            this.chkYobiSui.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiNichi
+            // 
+            this.chkYobiNichi.AutoSize = true;
+            this.chkYobiNichi.Location = new System.Drawing.Point(6, 22);
+            this.chkYobiNichi.Name = "chkYobiNichi";
+            this.chkYobiNichi.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiNichi.TabIndex = 14;
+            this.chkYobiNichi.Text = "日";
+            this.chkYobiNichi.UseVisualStyleBackColor = true;
             // 
             // BatchKotsuhi
             // 
