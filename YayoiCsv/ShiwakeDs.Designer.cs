@@ -2836,11 +2836,11 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string Week {
                 get {
-                    try {
-                        return ((string)(this[this.tableShiwake.WeekColumn]));
+                    if (this.IsWeekNull()) {
+                        return null;
                     }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("テーブル \'Shiwake\' にある列 \'Week\' の値は DBNull です。", e);
+                    else {
+                        return ((string)(this[this.tableShiwake.WeekColumn]));
                     }
                 }
                 set {
@@ -3391,11 +3391,11 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string Week {
                 get {
-                    try {
-                        return ((string)(this[this.tableGenkinSuitocho.WeekColumn]));
+                    if (this.IsWeekNull()) {
+                        return null;
                     }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("テーブル \'GenkinSuitocho\' にある列 \'Week\' の値は DBNull です。", e);
+                    else {
+                        return ((string)(this[this.tableGenkinSuitocho.WeekColumn]));
                     }
                 }
                 set {
@@ -3605,11 +3605,11 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string Week {
                 get {
-                    try {
-                        return ((string)(this[this.tableYokinSuitocho.WeekColumn]));
+                    if (this.IsWeekNull()) {
+                        return null;
                     }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("テーブル \'YokinSuitocho\' にある列 \'Week\' の値は DBNull です。", e);
+                    else {
+                        return ((string)(this[this.tableYokinSuitocho.WeekColumn]));
                     }
                 }
                 set {

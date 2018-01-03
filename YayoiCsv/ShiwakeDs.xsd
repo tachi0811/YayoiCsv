@@ -24,7 +24,7 @@
               <xs:element name="Tekiyo" msprop:Generator_ColumnVarNameInTable="columnTekiyo" msprop:Generator_ColumnPropNameInRow="Tekiyo" msprop:Generator_ColumnPropNameInTable="TekiyoColumn" msprop:Generator_UserColumnName="Tekiyo" type="xs:string" minOccurs="0" />
               <xs:element name="CustomDate" msprop:Generator_ColumnVarNameInTable="columnCustomDate" msprop:Generator_ColumnPropNameInRow="CustomDate" msprop:Generator_ColumnPropNameInTable="CustomDateColumn" msprop:Generator_UserColumnName="CustomDate" type="xs:string" minOccurs="0" />
               <xs:element name="KmkKbn" msprop:Generator_ColumnVarNameInTable="columnKmkKbn" msprop:Generator_ColumnPropNameInRow="KmkKbn" msprop:Generator_ColumnPropNameInTable="KmkKbnColumn" msprop:Generator_UserColumnName="KmkKbn" type="xs:string" />
-              <xs:element name="Week" msprop:Generator_ColumnVarNameInTable="columnWeek" msprop:Generator_ColumnPropNameInRow="Week" msprop:Generator_ColumnPropNameInTable="WeekColumn" msprop:Generator_UserColumnName="Week" type="xs:string" minOccurs="0" />
+              <xs:element name="Week" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="Week" msprop:Generator_ColumnVarNameInTable="columnWeek" msprop:Generator_ColumnPropNameInTable="WeekColumn" msprop:Generator_UserColumnName="Week" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -65,7 +65,7 @@
               <xs:element name="KrKingaku" msdata:Caption="金額（借方）" msprop:Generator_ColumnVarNameInTable="columnKrKingaku" msprop:Generator_ColumnPropNameInRow="KrKingaku" msprop:Generator_ColumnPropNameInTable="KrKingakuColumn" msprop:Generator_UserColumnName="KrKingaku" type="xs:decimal" minOccurs="0" />
               <xs:element name="KsKingaku" msdata:Caption="金額（貸方）" msprop:Generator_ColumnVarNameInTable="columnKsKingaku" msprop:Generator_ColumnPropNameInRow="KsKingaku" msprop:Generator_ColumnPropNameInTable="KsKingakuColumn" msprop:Generator_UserColumnName="KsKingaku" type="xs:decimal" minOccurs="0" />
               <xs:element name="ZanKingaku" msdata:Caption="残高" msprop:Generator_ColumnVarNameInTable="columnZanKingaku" msprop:Generator_ColumnPropNameInRow="ZanKingaku" msprop:Generator_ColumnPropNameInTable="ZanKingakuColumn" msprop:Generator_UserColumnName="ZanKingaku" type="xs:decimal" minOccurs="0" />
-              <xs:element name="Week" msprop:Generator_ColumnVarNameInTable="columnWeek" msprop:Generator_ColumnPropNameInRow="Week" msprop:Generator_ColumnPropNameInTable="WeekColumn" msprop:Generator_UserColumnName="Week" type="xs:string" minOccurs="0" />
+              <xs:element name="Week" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="Week" msprop:Generator_ColumnVarNameInTable="columnWeek" msprop:Generator_ColumnPropNameInTable="WeekColumn" msprop:Generator_UserColumnName="Week" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -80,7 +80,7 @@
               <xs:element name="KrKingaku" msdata:Caption="金額（借方）" msprop:Generator_ColumnVarNameInTable="columnKrKingaku" msprop:Generator_ColumnPropNameInRow="KrKingaku" msprop:Generator_ColumnPropNameInTable="KrKingakuColumn" msprop:Generator_UserColumnName="KrKingaku" type="xs:decimal" minOccurs="0" />
               <xs:element name="KsKingaku" msdata:Caption="金額（貸方）" msprop:Generator_ColumnVarNameInTable="columnKsKingaku" msprop:Generator_ColumnPropNameInRow="KsKingaku" msprop:Generator_ColumnPropNameInTable="KsKingakuColumn" msprop:Generator_UserColumnName="KsKingaku" type="xs:decimal" minOccurs="0" />
               <xs:element name="ZanKingaku" msdata:Caption="残高" msprop:Generator_ColumnVarNameInTable="columnZanKingaku" msprop:Generator_ColumnPropNameInRow="ZanKingaku" msprop:Generator_ColumnPropNameInTable="ZanKingakuColumn" msprop:Generator_UserColumnName="ZanKingaku" type="xs:decimal" minOccurs="0" />
-              <xs:element name="Week" msprop:Generator_ColumnVarNameInTable="columnWeek" msprop:Generator_ColumnPropNameInRow="Week" msprop:Generator_ColumnPropNameInTable="WeekColumn" msprop:Generator_UserColumnName="Week" type="xs:string" minOccurs="0" />
+              <xs:element name="Week" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="Week" msprop:Generator_ColumnVarNameInTable="columnWeek" msprop:Generator_ColumnPropNameInTable="WeekColumn" msprop:Generator_UserColumnName="Week" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
