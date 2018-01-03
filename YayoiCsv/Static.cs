@@ -821,7 +821,7 @@ namespace YayoiCsv
                 krKn.ToDoubleQuote(), ",",
                 "0".ToDoubleQuote(), ",",
                 ksKmkNm.ToDoubleQuote(), ",",
-                "".ToDoubleQuote() + ",",
+                ksHkmkNm.ToDoubleQuote() + ",",
                 "".ToDoubleQuote() + ",",
                 "対象外".ToDoubleQuote(), ",",
                 krKn.ToDoubleQuote(), ",",
