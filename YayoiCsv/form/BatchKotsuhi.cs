@@ -88,6 +88,58 @@ namespace YayoiCsv
                 }
 
             }
+            else if (rdoYobi.Checked)
+            {
+                bool isChecked = false;
+                foreach (Control ctl in grpYobi.Controls)
+                {
+                    if (ctl is CheckBox)
+                    {
+                        if( (ctl as CheckBox).Checked)
+                        {
+                            isChecked = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (!isChecked)
+                {
+                    MessageBox.Show("曜日が１つも指定されていません。曜日を指定してください。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+
+                while (Static.Nendo == date.Year)
+                {
+                    int week = (int)date.DayOfWeek;
+                    if ((chkYobiNichi.Checked && date.DayOfWeek == DayOfWeek.Sunday) ||
+                        (chkYobiGetsu.Checked && date.DayOfWeek == DayOfWeek.Monday) ||
+                        (chkYobiKa.Checked && date.DayOfWeek == DayOfWeek.Tuesday) ||
+                        (chkYobiSui.Checked && date.DayOfWeek == DayOfWeek.Wednesday) ||
+                        (chkYobiMoku.Checked && date.DayOfWeek == DayOfWeek.Thursday) ||
+                        (chkYobiKin.Checked && date.DayOfWeek == DayOfWeek.Friday) ||
+                        ((chkYobiDo.Checked && date.DayOfWeek == DayOfWeek.Saturday)))
+                    {
+                        if (clickType == ClickType.YayoiCsv)
+                        {
+                            // 弥生で取込めるフォーマット
+                            sb.AppendLine(CreateYayoiCSV(date));
+                        }
+                        else if (clickType == ClickType.Csv)
+                        {
+                            // 日付,科目,補助科目,金額,摘要
+                            sb.AppendLine(CreateCSV(date));
+                        }
+                        else
+                        {
+                            // 経費を足す
+                            AddShiwake(date);
+                        }
+                    }
+
+                    date = date.AddDays(1);
+                }
+            }
             else
             {
                 while (Static.Nendo == date.Year)
@@ -220,7 +272,7 @@ namespace YayoiCsv
         /// <summary>
         /// 経費を足す
         /// </summary>
-        /// <param name="date"></param>
+        /// <param name="date">年月日</param>
         private void AddShiwake(DateTime date)
         {
             var row = Static.ShiwakeDs.Shiwake.NewShiwakeRow();
@@ -233,6 +285,7 @@ namespace YayoiCsv
             row.Kingaku = decimal.Parse(txtKin.Text.Trim());
             row.KsKmkName = "現金";
             row.KsHKmkName = "";
+            row.Week = date.ToString("ddd");
             Static.ShiwakeDs.Shiwake.AddShiwakeRow(row);
         }
 

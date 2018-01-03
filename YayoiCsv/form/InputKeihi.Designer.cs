@@ -35,6 +35,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.cmbHKmkSrch = new YayoiCsv.control.ComboBoxEx();
@@ -61,7 +62,9 @@
             this.cmbKmk_Kr = new YayoiCsv.control.ComboBoxEx();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnClose = new System.Windows.Forms.Button();
             this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colWeek = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colKrKmkNm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colKrHKmkNm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTekiyo = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -71,7 +74,6 @@
             this.colKsHKmkName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colUpd = new System.Windows.Forms.DataGridViewButtonColumn();
             this.colDel = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.btnClose = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -382,6 +384,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colDate,
+            this.colWeek,
             this.colKrKmkNm,
             this.colKrHKmkNm,
             this.colTekiyo,
@@ -402,6 +405,19 @@
             this.dataGridView1.TabIndex = 23;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.BackColor = System.Drawing.Color.IndianRed;
+            this.btnClose.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnClose.Location = new System.Drawing.Point(877, 4);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(30, 30);
+            this.btnClose.TabIndex = 24;
+            this.btnClose.Text = "×";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // colDate
             // 
             this.colDate.DataPropertyName = "CustomDate";
@@ -416,13 +432,25 @@
             this.colDate.ReadOnly = true;
             this.colDate.Width = 80;
             // 
+            // colWeek
+            // 
+            this.colWeek.DataPropertyName = "Week";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            this.colWeek.DefaultCellStyle = dataGridViewCellStyle2;
+            this.colWeek.HeaderText = "曜";
+            this.colWeek.Name = "colWeek";
+            this.colWeek.ReadOnly = true;
+            this.colWeek.Width = 40;
+            // 
             // colKrKmkNm
             // 
             this.colKrKmkNm.DataPropertyName = "KrKmkName";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
-            this.colKrKmkNm.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            this.colKrKmkNm.DefaultCellStyle = dataGridViewCellStyle3;
             this.colKrKmkNm.HeaderText = "科目名";
             this.colKrKmkNm.Name = "colKrKmkNm";
             this.colKrKmkNm.ReadOnly = true;
@@ -431,10 +459,10 @@
             // colKrHKmkNm
             // 
             this.colKrHKmkNm.DataPropertyName = "KrHKmkName";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            this.colKrHKmkNm.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.colKrHKmkNm.DefaultCellStyle = dataGridViewCellStyle4;
             this.colKrHKmkNm.HeaderText = "補助科目名";
             this.colKrHKmkNm.Name = "colKrHKmkNm";
             this.colKrHKmkNm.ReadOnly = true;
@@ -443,10 +471,10 @@
             // colTekiyo
             // 
             this.colTekiyo.DataPropertyName = "Tekiyo";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            this.colTekiyo.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            this.colTekiyo.DefaultCellStyle = dataGridViewCellStyle5;
             this.colTekiyo.HeaderText = "摘要";
             this.colTekiyo.Name = "colTekiyo";
             this.colTekiyo.ReadOnly = true;
@@ -455,12 +483,12 @@
             // colKingaku
             // 
             this.colKingaku.DataPropertyName = "Kingaku";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "C0";
-            dataGridViewCellStyle5.NullValue = null;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            this.colKingaku.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle6.Format = "C0";
+            dataGridViewCellStyle6.NullValue = null;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            this.colKingaku.DefaultCellStyle = dataGridViewCellStyle6;
             this.colKingaku.HeaderText = "金額";
             this.colKingaku.Name = "colKingaku";
             this.colKingaku.ReadOnly = true;
@@ -491,9 +519,9 @@
             // 
             // colUpd
             // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            this.colUpd.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            this.colUpd.DefaultCellStyle = dataGridViewCellStyle7;
             this.colUpd.HeaderText = "修正";
             this.colUpd.Name = "colUpd";
             this.colUpd.ReadOnly = true;
@@ -502,27 +530,14 @@
             // 
             // colDel
             // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            this.colDel.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            this.colDel.DefaultCellStyle = dataGridViewCellStyle8;
             this.colDel.HeaderText = "削除";
             this.colDel.Name = "colDel";
             this.colDel.ReadOnly = true;
             this.colDel.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.colDel.Width = 50;
-            // 
-            // btnClose
-            // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.IndianRed;
-            this.btnClose.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnClose.Location = new System.Drawing.Point(877, 4);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(30, 30);
-            this.btnClose.TabIndex = 24;
-            this.btnClose.Text = "×";
-            this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // InputKeihi
             // 
@@ -579,16 +594,17 @@
         private System.Windows.Forms.Label label11;
         private control.TextBoxEx txtDateSrch;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.DataGridViewButtonColumn colDel;
-        private System.Windows.Forms.DataGridViewButtonColumn colUpd;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colKsHKmkName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colKsKmkNm;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colNo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colKingaku;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTekiyo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colKrHKmkNm;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colKrKmkNm;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colWeek;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colKrKmkNm;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colKrHKmkNm;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTekiyo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colKingaku;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colKsKmkNm;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colKsHKmkName;
+        private System.Windows.Forms.DataGridViewButtonColumn colUpd;
+        private System.Windows.Forms.DataGridViewButtonColumn colDel;
     }
 }
 

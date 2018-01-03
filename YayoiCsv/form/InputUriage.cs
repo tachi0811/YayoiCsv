@@ -253,6 +253,7 @@ namespace YayoiCsv
             shisan.KsHKmkName = cmbHKmk_Ks.Text;                     // 補助科目名（貸方）
             shisan.Kingaku = int.Parse(txtKin.Text);                 // 金額
             shisan.Tekiyo = txtTekiyo.Text;                          // 摘要
+            shisan.Week = Static.GetWeekName(txtHi.Text);            // 曜日
         }
 
         private void cmbKmk_Ks_SelectedIndexChanged(object sender, EventArgs e)

@@ -507,6 +507,8 @@ namespace YayoiCsv {
             
             private global::System.Data.DataColumn columnKmkKbn;
             
+            private global::System.Data.DataColumn columnWeek;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public ShiwakeDataTable() {
@@ -614,6 +616,14 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn WeekColumn {
+                get {
+                    return this.columnWeek;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -649,7 +659,7 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ShiwakeRow AddShiwakeRow(int No, string KrKmkName, string KrHKmkName, decimal Kingaku, string KsKmkName, string KsHKmkName, string Tekiyo, string CustomDate, string KmkKbn) {
+            public ShiwakeRow AddShiwakeRow(int No, string KrKmkName, string KrHKmkName, decimal Kingaku, string KsKmkName, string KsHKmkName, string Tekiyo, string CustomDate, string KmkKbn, string Week) {
                 ShiwakeRow rowShiwakeRow = ((ShiwakeRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         No,
@@ -660,7 +670,8 @@ namespace YayoiCsv {
                         KsHKmkName,
                         Tekiyo,
                         CustomDate,
-                        KmkKbn};
+                        KmkKbn,
+                        Week};
                 rowShiwakeRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowShiwakeRow);
                 return rowShiwakeRow;
@@ -692,6 +703,7 @@ namespace YayoiCsv {
                 this.columnTekiyo = base.Columns["Tekiyo"];
                 this.columnCustomDate = base.Columns["CustomDate"];
                 this.columnKmkKbn = base.Columns["KmkKbn"];
+                this.columnWeek = base.Columns["Week"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -715,6 +727,8 @@ namespace YayoiCsv {
                 base.Columns.Add(this.columnCustomDate);
                 this.columnKmkKbn = new global::System.Data.DataColumn("KmkKbn", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnKmkKbn);
+                this.columnWeek = new global::System.Data.DataColumn("Week", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnWeek);
                 this.columnNo.AllowDBNull = false;
                 this.columnKmkKbn.AllowDBNull = false;
             }
@@ -1718,6 +1732,8 @@ namespace YayoiCsv {
             
             private global::System.Data.DataColumn columnZanKingaku;
             
+            private global::System.Data.DataColumn columnWeek;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public GenkinSuitochoDataTable() {
@@ -1793,6 +1809,14 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn WeekColumn {
+                get {
+                    return this.columnWeek;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1828,14 +1852,15 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public GenkinSuitochoRow AddGenkinSuitochoRow(string CustomDate, string KmkName, decimal KrKingaku, decimal KsKingaku, decimal ZanKingaku) {
+            public GenkinSuitochoRow AddGenkinSuitochoRow(string CustomDate, string KmkName, decimal KrKingaku, decimal KsKingaku, decimal ZanKingaku, string Week) {
                 GenkinSuitochoRow rowGenkinSuitochoRow = ((GenkinSuitochoRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         CustomDate,
                         KmkName,
                         KrKingaku,
                         KsKingaku,
-                        ZanKingaku};
+                        ZanKingaku,
+                        Week};
                 rowGenkinSuitochoRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowGenkinSuitochoRow);
                 return rowGenkinSuitochoRow;
@@ -1863,6 +1888,7 @@ namespace YayoiCsv {
                 this.columnKrKingaku = base.Columns["KrKingaku"];
                 this.columnKsKingaku = base.Columns["KsKingaku"];
                 this.columnZanKingaku = base.Columns["ZanKingaku"];
+                this.columnWeek = base.Columns["Week"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1878,6 +1904,8 @@ namespace YayoiCsv {
                 base.Columns.Add(this.columnKsKingaku);
                 this.columnZanKingaku = new global::System.Data.DataColumn("ZanKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnZanKingaku);
+                this.columnWeek = new global::System.Data.DataColumn("Week", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnWeek);
                 this.columnCustomDate.Caption = "取引日付";
                 this.columnKmkName.AllowDBNull = false;
                 this.columnKmkName.Caption = "科目名";
@@ -2033,6 +2061,8 @@ namespace YayoiCsv {
             
             private global::System.Data.DataColumn columnZanKingaku;
             
+            private global::System.Data.DataColumn columnWeek;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public YokinSuitochoDataTable() {
@@ -2132,6 +2162,14 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn WeekColumn {
+                get {
+                    return this.columnWeek;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -2167,7 +2205,7 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public YokinSuitochoRow AddYokinSuitochoRow(string CustomDate, string KrKmkName, string KrHKmkName, string KsKmkName, string KsHKmkName, decimal KrKingaku, decimal KsKingaku, decimal ZanKingaku) {
+            public YokinSuitochoRow AddYokinSuitochoRow(string CustomDate, string KrKmkName, string KrHKmkName, string KsKmkName, string KsHKmkName, decimal KrKingaku, decimal KsKingaku, decimal ZanKingaku, string Week) {
                 YokinSuitochoRow rowYokinSuitochoRow = ((YokinSuitochoRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         CustomDate,
@@ -2177,7 +2215,8 @@ namespace YayoiCsv {
                         KsHKmkName,
                         KrKingaku,
                         KsKingaku,
-                        ZanKingaku};
+                        ZanKingaku,
+                        Week};
                 rowYokinSuitochoRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowYokinSuitochoRow);
                 return rowYokinSuitochoRow;
@@ -2208,6 +2247,7 @@ namespace YayoiCsv {
                 this.columnKrKingaku = base.Columns["KrKingaku"];
                 this.columnKsKingaku = base.Columns["KsKingaku"];
                 this.columnZanKingaku = base.Columns["ZanKingaku"];
+                this.columnWeek = base.Columns["Week"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2229,6 +2269,8 @@ namespace YayoiCsv {
                 base.Columns.Add(this.columnKsKingaku);
                 this.columnZanKingaku = new global::System.Data.DataColumn("ZanKingaku", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnZanKingaku);
+                this.columnWeek = new global::System.Data.DataColumn("Week", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnWeek);
                 this.columnCustomDate.Caption = "取引日付";
                 this.columnKrKmkName.AllowDBNull = false;
                 this.columnKrKmkName.Caption = "科目名（借方）";
@@ -2792,6 +2834,22 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Week {
+                get {
+                    try {
+                        return ((string)(this[this.tableShiwake.WeekColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("テーブル \'Shiwake\' にある列 \'Week\' の値は DBNull です。", e);
+                    }
+                }
+                set {
+                    this[this.tableShiwake.WeekColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsKrKmkNameNull() {
                 return this.IsNull(this.tableShiwake.KrKmkNameColumn);
             }
@@ -2872,6 +2930,18 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetCustomDateNull() {
                 this[this.tableShiwake.CustomDateColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsWeekNull() {
+                return this.IsNull(this.tableShiwake.WeekColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetWeekNull() {
+                this[this.tableShiwake.WeekColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -3319,6 +3389,22 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Week {
+                get {
+                    try {
+                        return ((string)(this[this.tableGenkinSuitocho.WeekColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("テーブル \'GenkinSuitocho\' にある列 \'Week\' の値は DBNull です。", e);
+                    }
+                }
+                set {
+                    this[this.tableGenkinSuitocho.WeekColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsCustomDateNull() {
                 return this.IsNull(this.tableGenkinSuitocho.CustomDateColumn);
             }
@@ -3363,6 +3449,18 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetZanKingakuNull() {
                 this[this.tableGenkinSuitocho.ZanKingakuColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsWeekNull() {
+                return this.IsNull(this.tableGenkinSuitocho.WeekColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetWeekNull() {
+                this[this.tableGenkinSuitocho.WeekColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -3505,6 +3603,22 @@ namespace YayoiCsv {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Week {
+                get {
+                    try {
+                        return ((string)(this[this.tableYokinSuitocho.WeekColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("テーブル \'YokinSuitocho\' にある列 \'Week\' の値は DBNull です。", e);
+                    }
+                }
+                set {
+                    this[this.tableYokinSuitocho.WeekColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsCustomDateNull() {
                 return this.IsNull(this.tableYokinSuitocho.CustomDateColumn);
             }
@@ -3585,6 +3699,18 @@ namespace YayoiCsv {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetZanKingakuNull() {
                 this[this.tableYokinSuitocho.ZanKingakuColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsWeekNull() {
+                return this.IsNull(this.tableYokinSuitocho.WeekColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetWeekNull() {
+                this[this.tableYokinSuitocho.WeekColumn] = global::System.Convert.DBNull;
             }
         }
         

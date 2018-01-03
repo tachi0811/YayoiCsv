@@ -118,7 +118,7 @@ namespace YayoiCsv
             {
                 // 初期表示するディレクトリを設定する
                 saveDialog.InitialDirectory = @"C:\";
-                saveDialog.FileName = Static.Nendo.ToString() + "年度_仕訳（弥生）";
+                saveDialog.FileName = Static.Nendo.ToString() + "年度_仕訳（弥生）_" + DateTime.Now.ToString("yyyyMMddhhmmss");
                 saveDialog.Filter = "テキスト ファイル|*.csv";
 
                 var result = saveDialog.ShowDialog(Static.ParentForm);

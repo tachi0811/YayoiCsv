@@ -28,24 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewYokinSuitocho));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewYokinSuitocho));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnClose = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbHKmk = new YayoiCsv.control.ComboBoxEx();
             this.cmbKmk = new YayoiCsv.control.ComboBoxEx();
             this.dataGridView1 = new YayoiCsv.control.DataGridViewEx();
+            this.btnExcel = new System.Windows.Forms.Button();
             this.colKrKmkNm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colWeek = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.KrKingaku = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colKingaku = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colZanKingaku = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnExcel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +56,7 @@
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.BackColor = System.Drawing.Color.IndianRed;
             this.btnClose.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnClose.Location = new System.Drawing.Point(510, 5);
+            this.btnClose.Location = new System.Drawing.Point(552, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(30, 30);
             this.btnClose.TabIndex = 24;
@@ -118,6 +120,7 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colKrKmkNm,
             this.colDate,
+            this.colWeek,
             this.KrKingaku,
             this.colKingaku,
             this.colZanKingaku});
@@ -128,8 +131,23 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowTemplate.Height = 21;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(544, 433);
+            this.dataGridView1.Size = new System.Drawing.Size(586, 433);
             this.dataGridView1.TabIndex = 23;
+            // 
+            // btnExcel
+            // 
+            this.btnExcel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExcel.BackColor = System.Drawing.SystemColors.Control;
+            this.btnExcel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnExcel.BackgroundImage")));
+            this.btnExcel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnExcel.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnExcel.Image = ((System.Drawing.Image)(resources.GetObject("btnExcel.Image")));
+            this.btnExcel.Location = new System.Drawing.Point(517, 5);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(30, 30);
+            this.btnExcel.TabIndex = 29;
+            this.btnExcel.UseVisualStyleBackColor = false;
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
             // colKrKmkNm
             // 
@@ -156,15 +174,27 @@
             this.colDate.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.colDate.Width = 70;
             // 
+            // colWeek
+            // 
+            this.colWeek.DataPropertyName = "Week";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            this.colWeek.DefaultCellStyle = dataGridViewCellStyle3;
+            this.colWeek.HeaderText = "曜";
+            this.colWeek.Name = "colWeek";
+            this.colWeek.ReadOnly = true;
+            this.colWeek.Width = 40;
+            // 
             // KrKingaku
             // 
             this.KrKingaku.DataPropertyName = "KrKingaku";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle3.Format = "C0";
-            dataGridViewCellStyle3.NullValue = null;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            this.KrKingaku.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle4.Format = "C0";
+            dataGridViewCellStyle4.NullValue = null;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.KrKingaku.DefaultCellStyle = dataGridViewCellStyle4;
             this.KrKingaku.HeaderText = "借方金額";
             this.KrKingaku.Name = "KrKingaku";
             this.KrKingaku.ReadOnly = true;
@@ -173,12 +203,12 @@
             // colKingaku
             // 
             this.colKingaku.DataPropertyName = "KsKingaku";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "C0";
-            dataGridViewCellStyle4.NullValue = null;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            this.colKingaku.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle5.Format = "C0";
+            dataGridViewCellStyle5.NullValue = null;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            this.colKingaku.DefaultCellStyle = dataGridViewCellStyle5;
             this.colKingaku.HeaderText = "貸方金額";
             this.colKingaku.Name = "colKingaku";
             this.colKingaku.ReadOnly = true;
@@ -187,37 +217,22 @@
             // colZanKingaku
             // 
             this.colZanKingaku.DataPropertyName = "ZanKingaku";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "C0";
-            dataGridViewCellStyle5.NullValue = null;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            this.colZanKingaku.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle6.Format = "C0";
+            dataGridViewCellStyle6.NullValue = null;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            this.colZanKingaku.DefaultCellStyle = dataGridViewCellStyle6;
             this.colZanKingaku.HeaderText = "現金残";
             this.colZanKingaku.Name = "colZanKingaku";
             this.colZanKingaku.ReadOnly = true;
             this.colZanKingaku.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // btnExcel
-            // 
-            this.btnExcel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExcel.BackColor = System.Drawing.SystemColors.Control;
-            this.btnExcel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnExcel.BackgroundImage")));
-            this.btnExcel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnExcel.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnExcel.Image = ((System.Drawing.Image)(resources.GetObject("btnExcel.Image")));
-            this.btnExcel.Location = new System.Drawing.Point(475, 5);
-            this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(30, 30);
-            this.btnExcel.TabIndex = 29;
-            this.btnExcel.UseVisualStyleBackColor = false;
-            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
-            // 
             // ViewYokinSuitocho
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(544, 462);
+            this.ClientSize = new System.Drawing.Size(586, 462);
             this.ControlBox = false;
             this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.label4);
@@ -245,12 +260,13 @@
         private control.ComboBoxEx cmbHKmk;
         private control.ComboBoxEx cmbKmk;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colZanKingaku;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colKingaku;
-        private System.Windows.Forms.DataGridViewTextBoxColumn KrKingaku;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colKrKmkNm;
         private System.Windows.Forms.Button btnExcel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colKrKmkNm;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colWeek;
+        private System.Windows.Forms.DataGridViewTextBoxColumn KrKingaku;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colKingaku;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colZanKingaku;
     }
 }
 

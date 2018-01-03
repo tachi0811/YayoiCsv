@@ -227,6 +227,7 @@ namespace YayoiCsv
                 row.KmkName = shiwake.KrKmkName;
 
                 row.CustomDate = shiwake.CustomDate;
+                row.Week = shiwake.Week;
 
                 if (shiwake.KrKmkName == "現金")
                 {
@@ -271,6 +272,7 @@ namespace YayoiCsv
                 row.KsHKmkName = shiwake.KsHKmkName;
 
                 row.CustomDate = shiwake.CustomDate;
+                row.Week = shiwake.Week;
 
                 if (shiwake.KrKmkName.IndexOf("預金") >= 0)
                 {
@@ -737,6 +739,20 @@ namespace YayoiCsv
 
         #endregion
 
+        #region 曜日
+
+        /// <summary>
+        /// 曜日を取得
+        /// </summary>
+        /// <param name="day">月日（4桁の数字）</param>
+        /// <returns>曜日（１桁）</returns>
+        public static string GetWeekName(string monthDay)
+        {
+            return new DateTime(Nendo, int.Parse(monthDay.Substring(0, 2)), int.Parse(monthDay.Substring(2, 2))).ToString("ddd");
+        }
+
+        #endregion
+
         #region 弥生会計で取り込める形式でCSV出力
 
         /// <summary>
@@ -1011,6 +1027,7 @@ namespace YayoiCsv
                         shiwake.No = GetShiwakeNo();
                         shiwake.KmkKbn = KmkList.Where(x => row["F5"].ToString() == x.KmkName).Select(x => x.KmkKbn).First();
                         shiwake.CustomDate = o.ToString("MMdd");
+                        shiwake.Week = o.ToString("ddd");
                         shiwake.KrKmkName = row["F5"].ToString();
                         shiwake.KrHKmkName = row["F6"].ToString();
                         shiwake.Kingaku = d;

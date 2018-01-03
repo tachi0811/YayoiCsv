@@ -42,12 +42,23 @@
             this.cmbHojo = new System.Windows.Forms.ComboBox();
             this.btnShiwakeAdd = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.grpYobi = new System.Windows.Forms.GroupBox();
+            this.chkYobiNichi = new System.Windows.Forms.CheckBox();
+            this.chkYobiSui = new System.Windows.Forms.CheckBox();
+            this.chkYobiMoku = new System.Windows.Forms.CheckBox();
+            this.chkYobiKin = new System.Windows.Forms.CheckBox();
+            this.chkYobiDo = new System.Windows.Forms.CheckBox();
+            this.chkYobiKa = new System.Windows.Forms.CheckBox();
+            this.chkYobiGetsu = new System.Windows.Forms.CheckBox();
+            this.rdoYobi = new System.Windows.Forms.RadioButton();
             this.grpBox.SuspendLayout();
+            this.grpYobi.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnYayoiCSV
             // 
-            this.btnYayoiCSV.Location = new System.Drawing.Point(229, 143);
+            this.btnYayoiCSV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnYayoiCSV.Location = new System.Drawing.Point(354, 212);
             this.btnYayoiCSV.Name = "btnYayoiCSV";
             this.btnYayoiCSV.Size = new System.Drawing.Size(84, 51);
             this.btnYayoiCSV.TabIndex = 5;
@@ -56,19 +67,20 @@
             // 
             // grpBox
             // 
+            this.grpBox.Controls.Add(this.rdoYobi);
             this.grpBox.Controls.Add(this.rdoYear);
             this.grpBox.Controls.Add(this.rdoHoliday);
             this.grpBox.Controls.Add(this.rdoNormal);
             this.grpBox.Location = new System.Drawing.Point(12, 2);
             this.grpBox.Name = "grpBox";
-            this.grpBox.Size = new System.Drawing.Size(248, 57);
+            this.grpBox.Size = new System.Drawing.Size(390, 57);
             this.grpBox.TabIndex = 0;
             this.grpBox.TabStop = false;
             // 
             // rdoYear
             // 
             this.rdoYear.AutoSize = true;
-            this.rdoYear.Location = new System.Drawing.Point(158, 22);
+            this.rdoYear.Location = new System.Drawing.Point(237, 22);
             this.rdoYear.Name = "rdoYear";
             this.rdoYear.Size = new System.Drawing.Size(56, 19);
             this.rdoYear.TabIndex = 2;
@@ -99,7 +111,8 @@
             // 
             // btnCSV
             // 
-            this.btnCSV.Location = new System.Drawing.Point(139, 143);
+            this.btnCSV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCSV.Location = new System.Drawing.Point(261, 212);
             this.btnCSV.Name = "btnCSV";
             this.btnCSV.Size = new System.Drawing.Size(84, 51);
             this.btnCSV.TabIndex = 4;
@@ -111,7 +124,7 @@
             // 
             this.txtKin.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.txtKin.InputType = YayoiCsv.control.InputType.Number;
-            this.txtKin.Location = new System.Drawing.Point(119, 88);
+            this.txtKin.Location = new System.Drawing.Point(119, 151);
             this.txtKin.Name = "txtKin";
             this.txtKin.Size = new System.Drawing.Size(194, 23);
             this.txtKin.TabIndex = 2;
@@ -122,7 +135,7 @@
             this.label1.BackColor = System.Drawing.Color.YellowGreen;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Location = new System.Drawing.Point(12, 88);
+            this.label1.Location = new System.Drawing.Point(12, 151);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 23);
             this.label1.TabIndex = 4;
@@ -134,7 +147,7 @@
             this.label3.BackColor = System.Drawing.Color.YellowGreen;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Location = new System.Drawing.Point(12, 62);
+            this.label3.Location = new System.Drawing.Point(12, 125);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 23);
             this.label3.TabIndex = 6;
@@ -145,7 +158,7 @@
             // 
             this.txtTekiyo.ImeMode = System.Windows.Forms.ImeMode.Hiragana;
             this.txtTekiyo.InputType = YayoiCsv.control.InputType.String;
-            this.txtTekiyo.Location = new System.Drawing.Point(119, 114);
+            this.txtTekiyo.Location = new System.Drawing.Point(119, 177);
             this.txtTekiyo.Name = "txtTekiyo";
             this.txtTekiyo.Size = new System.Drawing.Size(194, 23);
             this.txtTekiyo.TabIndex = 3;
@@ -155,7 +168,7 @@
             this.label2.BackColor = System.Drawing.Color.YellowGreen;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Location = new System.Drawing.Point(12, 114);
+            this.label2.Location = new System.Drawing.Point(12, 177);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 23);
             this.label2.TabIndex = 9;
@@ -166,14 +179,15 @@
             // 
             this.cmbHojo.FormattingEnabled = true;
             this.cmbHojo.ImeMode = System.Windows.Forms.ImeMode.Hiragana;
-            this.cmbHojo.Location = new System.Drawing.Point(119, 62);
+            this.cmbHojo.Location = new System.Drawing.Point(119, 125);
             this.cmbHojo.Name = "cmbHojo";
             this.cmbHojo.Size = new System.Drawing.Size(194, 23);
             this.cmbHojo.TabIndex = 1;
             // 
             // btnShiwakeAdd
             // 
-            this.btnShiwakeAdd.Location = new System.Drawing.Point(12, 143);
+            this.btnShiwakeAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnShiwakeAdd.Location = new System.Drawing.Point(12, 212);
             this.btnShiwakeAdd.Name = "btnShiwakeAdd";
             this.btnShiwakeAdd.Size = new System.Drawing.Size(84, 51);
             this.btnShiwakeAdd.TabIndex = 11;
@@ -186,7 +200,7 @@
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.BackColor = System.Drawing.Color.IndianRed;
             this.btnClose.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnClose.Location = new System.Drawing.Point(291, 4);
+            this.btnClose.Location = new System.Drawing.Point(408, 4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(30, 30);
             this.btnClose.TabIndex = 12;
@@ -194,12 +208,108 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // grpYobi
+            // 
+            this.grpYobi.Controls.Add(this.chkYobiGetsu);
+            this.grpYobi.Controls.Add(this.chkYobiKa);
+            this.grpYobi.Controls.Add(this.chkYobiDo);
+            this.grpYobi.Controls.Add(this.chkYobiKin);
+            this.grpYobi.Controls.Add(this.chkYobiMoku);
+            this.grpYobi.Controls.Add(this.chkYobiSui);
+            this.grpYobi.Controls.Add(this.chkYobiNichi);
+            this.grpYobi.Location = new System.Drawing.Point(12, 60);
+            this.grpYobi.Name = "grpYobi";
+            this.grpYobi.Size = new System.Drawing.Size(390, 55);
+            this.grpYobi.TabIndex = 13;
+            this.grpYobi.TabStop = false;
+            // 
+            // chkYobiNichi
+            // 
+            this.chkYobiNichi.AutoSize = true;
+            this.chkYobiNichi.Location = new System.Drawing.Point(6, 22);
+            this.chkYobiNichi.Name = "chkYobiNichi";
+            this.chkYobiNichi.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiNichi.TabIndex = 14;
+            this.chkYobiNichi.Text = "日";
+            this.chkYobiNichi.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiSui
+            // 
+            this.chkYobiSui.AutoSize = true;
+            this.chkYobiSui.Location = new System.Drawing.Point(138, 22);
+            this.chkYobiSui.Name = "chkYobiSui";
+            this.chkYobiSui.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiSui.TabIndex = 15;
+            this.chkYobiSui.Text = "水";
+            this.chkYobiSui.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiMoku
+            // 
+            this.chkYobiMoku.AutoSize = true;
+            this.chkYobiMoku.Location = new System.Drawing.Point(182, 22);
+            this.chkYobiMoku.Name = "chkYobiMoku";
+            this.chkYobiMoku.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiMoku.TabIndex = 16;
+            this.chkYobiMoku.Text = "木";
+            this.chkYobiMoku.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiKin
+            // 
+            this.chkYobiKin.AutoSize = true;
+            this.chkYobiKin.Location = new System.Drawing.Point(226, 22);
+            this.chkYobiKin.Name = "chkYobiKin";
+            this.chkYobiKin.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiKin.TabIndex = 17;
+            this.chkYobiKin.Text = "金";
+            this.chkYobiKin.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiDo
+            // 
+            this.chkYobiDo.AutoSize = true;
+            this.chkYobiDo.Location = new System.Drawing.Point(270, 22);
+            this.chkYobiDo.Name = "chkYobiDo";
+            this.chkYobiDo.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiDo.TabIndex = 18;
+            this.chkYobiDo.Text = "土";
+            this.chkYobiDo.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiKa
+            // 
+            this.chkYobiKa.AutoSize = true;
+            this.chkYobiKa.Location = new System.Drawing.Point(94, 22);
+            this.chkYobiKa.Name = "chkYobiKa";
+            this.chkYobiKa.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiKa.TabIndex = 19;
+            this.chkYobiKa.Text = "火";
+            this.chkYobiKa.UseVisualStyleBackColor = true;
+            // 
+            // chkYobiGetsu
+            // 
+            this.chkYobiGetsu.AutoSize = true;
+            this.chkYobiGetsu.Location = new System.Drawing.Point(50, 22);
+            this.chkYobiGetsu.Name = "chkYobiGetsu";
+            this.chkYobiGetsu.Size = new System.Drawing.Size(38, 19);
+            this.chkYobiGetsu.TabIndex = 20;
+            this.chkYobiGetsu.Text = "月";
+            this.chkYobiGetsu.UseVisualStyleBackColor = true;
+            // 
+            // rdoYobi
+            // 
+            this.rdoYobi.AutoSize = true;
+            this.rdoYobi.Location = new System.Drawing.Point(158, 22);
+            this.rdoYobi.Name = "rdoYobi";
+            this.rdoYobi.Size = new System.Drawing.Size(73, 19);
+            this.rdoYobi.TabIndex = 3;
+            this.rdoYobi.Text = "曜日指定";
+            this.rdoYobi.UseVisualStyleBackColor = true;
+            // 
             // BatchKotsuhi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(325, 204);
+            this.ClientSize = new System.Drawing.Size(442, 275);
             this.ControlBox = false;
+            this.Controls.Add(this.grpYobi);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnShiwakeAdd);
             this.Controls.Add(this.cmbHojo);
@@ -221,6 +331,8 @@
             this.Text = "交通費一括出力";
             this.grpBox.ResumeLayout(false);
             this.grpBox.PerformLayout();
+            this.grpYobi.ResumeLayout(false);
+            this.grpYobi.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,5 +353,14 @@
         private System.Windows.Forms.ComboBox cmbHojo;
         private System.Windows.Forms.Button btnShiwakeAdd;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.RadioButton rdoYobi;
+        private System.Windows.Forms.GroupBox grpYobi;
+        private System.Windows.Forms.CheckBox chkYobiGetsu;
+        private System.Windows.Forms.CheckBox chkYobiKa;
+        private System.Windows.Forms.CheckBox chkYobiDo;
+        private System.Windows.Forms.CheckBox chkYobiKin;
+        private System.Windows.Forms.CheckBox chkYobiMoku;
+        private System.Windows.Forms.CheckBox chkYobiSui;
+        private System.Windows.Forms.CheckBox chkYobiNichi;
     }
 }
