@@ -8,4 +8,12 @@
     <Left>-8</Left>
     <WindowState>2</WindowState>
   </FormPosition>
+  <FormPosition>
+    <FormName>YayoiCsv.ViewGenkinSuitocho</FormName>
+    <Height>501</Height>
+    <Width>603</Width>
+    <Top>26</Top>
+    <Left>26</Left>
+    <WindowState>0</WindowState>
+  </FormPosition>
 </ShiwakeDs>

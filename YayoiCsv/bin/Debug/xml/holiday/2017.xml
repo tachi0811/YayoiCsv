@@ -6,11 +6,7 @@
   </Holiday>
   <Holiday>
     <Day>2017/01/02 0:00:00</Day>
-    <Name>御用納め期間</Name>
-  </Holiday>
-  <Holiday>
-    <Day>2017/01/03 0:00:00</Day>
-    <Name>御用納め期間</Name>
+    <Name>休日</Name>
   </Holiday>
   <Holiday>
     <Day>2017/01/09 0:00:00</Day>
@@ -71,13 +67,5 @@
   <Holiday>
     <Day>2017/12/23 0:00:00</Day>
     <Name>天皇誕生日</Name>
-  </Holiday>
-  <Holiday>
-    <Day>2017/12/29 0:00:00</Day>
-    <Name>御用納め期間</Name>
-  </Holiday>
-  <Holiday>
-    <Day>2017/12/30 0:00:00</Day>
-    <Name>御用納め期間</Name>
   </Holiday>
 </Holidays>

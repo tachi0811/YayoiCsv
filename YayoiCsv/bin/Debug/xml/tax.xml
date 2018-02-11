@@ -18,11 +18,11 @@
   <item>
     <tax_rate>8</tax_rate>
     <start_date>2014/04/01</start_date>
-    <end_date>2017/03/31</end_date>
+    <end_date>2019/09/30</end_date>
   </item>
   <item>
     <tax_rate>10</tax_rate>
-    <start_date>2017/04/01</start_date>
+    <start_date>2019/10/01</start_date>
     <end_date>2099/03/31</end_date>
   </item>
 </items>

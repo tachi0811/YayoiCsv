@@ -5,14 +5,6 @@
     <Name>元日</Name>
   </Holiday>
   <Holiday>
-    <Day>2018/01/02 0:00:00</Day>
-    <Name>御用納め期間</Name>
-  </Holiday>
-  <Holiday>
-    <Day>2018/01/03 0:00:00</Day>
-    <Name>御用納め期間</Name>
-  </Holiday>
-  <Holiday>
     <Day>2018/01/08 0:00:00</Day>
     <Name>成人の日</Name>
   </Holiday>
@@ -22,7 +14,7 @@
   </Holiday>
   <Holiday>
     <Day>2018/02/12 0:00:00</Day>
-    <Name>振替休日</Name>
+    <Name>休日</Name>
   </Holiday>
   <Holiday>
     <Day>2018/03/21 0:00:00</Day>
@@ -34,7 +26,7 @@
   </Holiday>
   <Holiday>
     <Day>2018/04/30 0:00:00</Day>
-    <Name>振替休日</Name>
+    <Name>休日</Name>
   </Holiday>
   <Holiday>
     <Day>2018/05/03 0:00:00</Day>
@@ -66,7 +58,7 @@
   </Holiday>
   <Holiday>
     <Day>2018/09/24 0:00:00</Day>
-    <Name>振替休日</Name>
+    <Name>休日</Name>
   </Holiday>
   <Holiday>
     <Day>2018/10/08 0:00:00</Day>
@@ -86,14 +78,6 @@
   </Holiday>
   <Holiday>
     <Day>2018/12/24 0:00:00</Day>
-    <Name>振替休日</Name>
-  </Holiday>
-  <Holiday>
-    <Day>2018/12/29 0:00:00</Day>
-    <Name>御用納め期間</Name>
-  </Holiday>
-  <Holiday>
-    <Day>2018/12/31 0:00:00</Day>
-    <Name>御用納め期間</Name>
+    <Name>休日</Name>
   </Holiday>
 </Holidays>

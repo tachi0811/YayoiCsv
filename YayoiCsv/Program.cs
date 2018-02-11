@@ -6,6 +6,9 @@ using System.Windows.Forms;
 
 namespace YayoiCsv
 {
+    /// <summary>
+    /// 弥生会計に連携CSVを出力するプロジェクト
+    /// </summary>
     class Program
     {
         [STAThread]
@@ -14,12 +17,18 @@ namespace YayoiCsv
         /// </summary>
         static void Main()
         {
-            
-            Static.ParentForm = new MDIParent();
+            try
+            {
+                Static.ParentForm = new MDIParent();
 
-            Static.SystemInit();
+                Static.SystemInit();
 
-            Application.Run(Static.ParentForm);
+                Application.Run(Static.ParentForm);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(string.Concat(ex.Message, "\n", ex.StackTrace));
+            }
         }
 
 

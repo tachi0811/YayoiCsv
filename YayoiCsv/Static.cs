@@ -117,15 +117,15 @@ namespace YayoiCsv
             ShiwakeDs.ShisanSum.Clear();
             var sumGKr = ShiwakeDs.Shiwake.Where(x => x.KmkKbn == KmkKbn.資産.ToString()).
                 GroupBy(x => new { KmkName = x.KrKmkName, HKmkName = x.KrHKmkName }).
-                Select(g => new { KmkName = g.Key.KmkName, HKmkName = g.Key.HKmkName , Kingaku = g.Sum(x => x.Kingaku) });
+                Select(g => new { KmkName = g.Key.KmkName, HKmkName = g.Key.HKmkName, Kingaku = g.Sum(x => x.Kingaku) });
 
             var sumGKs = ShiwakeDs.Shiwake.Where(x => x.KmkKbn == KmkKbn.資産.ToString()).
                 GroupBy(x => new { KmkName = x.KsKmkName, HKmkName = x.KsHKmkName }).
                 Select(g => new { KmkName = g.Key.KmkName, HKmkName = g.Key.HKmkName, Kingaku = g.Sum(x => x.Kingaku) });
 
             foreach (var item in KmkList.Where(x => x.KmkKbn == KmkKbn.資産.ToString()).
-                Join(sumGKr, x =>new { x.KmkName } , y => new { y.KmkName }, (x, y) => new { y.KmkName, y.HKmkName, y.Kingaku }))
-            {  
+                Join(sumGKr, x => new { x.KmkName }, y => new { y.KmkName }, (x, y) => new { y.KmkName, y.HKmkName, y.Kingaku }))
+            {
                 var row = ShiwakeDs.ShisanSum.NewShisanSumRow();
 
                 decimal ks = sumGKs.Where(x => x.KmkName == item.KmkName && x.HKmkName == item.HKmkName).Select(x => x.Kingaku).FirstOrDefault();
@@ -317,7 +317,7 @@ namespace YayoiCsv
             ShiwakeDs = new ShiwakeDs();
 
             ReadFormPosition();
-            
+
             var positionRow = Static.ShiwakeDs.FormPosition.Where(x => x.FormName == typeof(MDIParent).FullName).FirstOrDefault();
             if (positionRow != null)
             {
@@ -350,7 +350,7 @@ namespace YayoiCsv
 
             if (!ChildFormList.Any(x => x.GetType() == type))
             {
-                var form = (Form)Activator.CreateInstance(type) ;
+                var form = (Form)Activator.CreateInstance(type);
                 ChildFormList.Add(form);
                 form.MdiParent = ParentForm;
 
@@ -465,7 +465,7 @@ namespace YayoiCsv
             }
         }
 
-        public  static void WriteNendo()
+        public static void WriteNendo()
         {
             var xDoc = new XmlDocument();
             xDoc.AppendChild(xDoc.CreateXmlDeclaration("1.0", "UTF-8", null));
@@ -582,18 +582,7 @@ namespace YayoiCsv
         public static void SetNendoHoliday(int nendo)
         {
             Static.HolidayList = new List<Holiday>();
-
-            if (!System.IO.File.Exists(System.IO.Path.Combine(Holiday.HolidayXmlFolder, nendo.ToString() + ".xml")))
-            {
-                // 月別の休日を作成
-                CreateXmlHolidayMonth(nendo);
-
-                // 年別の休日を作成
-                CreateXmlHolidayYear(nendo);
-
-                // 月別の休日Xmlを削除
-                DeleteXmlHolidayMonth(nendo);
-            }
+            CreateXmlHolidayYear();
 
             var xDoc = XDocument.Load(System.IO.Path.Combine(Holiday.HolidayXmlFolder, nendo.ToString() + ".xml"));
             var xHolidays = xDoc.Element("Holidays").Elements("Holiday");
@@ -605,136 +594,77 @@ namespace YayoiCsv
         }
 
         /// <summary>
-        /// Xmlファイル作成（月別休日）
+        /// Xmlファイル作成（年別休日）
         /// </summary>
-        static void CreateXmlHolidayMonth(int nendo)
+        static void CreateXmlHolidayYear()
         {
-            if (System.IO.Directory.Exists(Holiday.HolidayXmlFolder) == false) System.IO.Directory.CreateDirectory(Holiday.HolidayXmlFolder);
+            // 内閣府のHPからCSVを取得して、休日ファイルを作成
+            string address = @"http://www8.cao.go.jp/chosei/shukujitsu/syukujitsu_kyujitsu.csv";
+            var holidays = new List<Holiday>();
 
-            for (int i = 1; i < 13; i++)
+            var request = System.Net.WebRequest.Create(address);
+            using (var response = request.GetResponse())
             {
-                string filePath = System.IO.Path.Combine(Holiday.HolidayXmlFolder, string.Concat(nendo, i.ToString("00"), ".xml"));
-
-                if (System.IO.File.Exists(filePath) == false)
+                using (var stream = response.GetResponseStream())
                 {
-                    var request = System.Net.WebRequest.Create("http://www.finds.jp/ws/calendar.php?y=" + nendo + "&m=" + i.ToString());
-                    using (var response = request.GetResponse())
+                    using (var reader = new System.IO.StreamReader(stream, Encoding.GetEncoding("Shift_JIS")))
                     {
-                        using (var stream = response.GetResponseStream())
+                        do
                         {
-                            using (var reader = new System.IO.StreamReader(stream, Encoding.UTF8))
+                            DateTime o;
+                            var items = reader.ReadLine().Split(',');
+                            if (DateTime.TryParse(items[0], out o))
                             {
-                                var writeXml = new System.Text.StringBuilder();
-
-                                do
+                                var holiday = new Holiday()
                                 {
-                                    string writeLine = reader.ReadLine();
-
-                                    // 不要タグの削除
-                                    if (writeLine.IndexOf("calendar") > 0
-                                        || writeLine.IndexOf("status") > 0
-                                        || writeLine.IndexOf("year") > 0
-                                        || writeLine.IndexOf("month") > 0
-                                        || writeLine.IndexOf("firstwday") > 0
-                                        || writeLine.IndexOf("days") > 0
-                                        || writeLine.IndexOf("hdays") > 0
-                                        || writeLine.IndexOf("argument") > 0
-                                        || writeLine.IndexOf("<type") > 0
-                                        || writeLine.IndexOf("</type") > 0
-                                        || writeLine.IndexOf("level") > 0)
-
-                                    {
-                                        continue;
-                                    }
-                                    else if (writeLine.IndexOf("/result") > 0)
-                                    {
-                                        writeXml.Append("</days>");
-                                    }
-                                    else if (writeLine.IndexOf("result") > 0)
-                                    {
-                                        writeXml.Append("<days>");
-                                    }
-                                    else
-                                    {
-                                        writeXml.Append(writeLine.Trim());
-                                    }
-
-                                } while (!reader.EndOfStream);
-
-                                using (var writer = new System.IO.StreamWriter(filePath, false, Encoding.UTF8))
-                                {
-                                    writer.Write(writeXml.ToString());
-                                }
+                                    Name = items[1],
+                                    Date = o
+                                };
+                                holidays.Add(holiday);
                             }
 
-                        }
+                        } while (!reader.EndOfStream);
                     }
                 }
             }
-        }
 
-        /// <summary>
-        /// Xmlファイル作成（年別休日）
-        /// </summary>
-        static void CreateXmlHolidayYear(int nendo)
-        {
-
-            string createFilePath = System.IO.Path.Combine(Holiday.HolidayXmlFolder, nendo.ToString() + ".xml");
-
-            // ファイルが存在するなら、処理しない
-            if (System.IO.File.Exists(createFilePath)) return;
-
-            var xmlDocument = new System.Xml.XmlDocument();
-            var xmlDeclaration = xmlDocument.CreateXmlDeclaration("1.0", "UTF-8", null);
-            var eleHolidays = xmlDocument.CreateElement("Holidays");
-
-            xmlDocument.AppendChild(xmlDeclaration);
-            xmlDocument.AppendChild(eleHolidays);
-
-            for (int i = 1; i < 13; i++)
+            holidays.Select(x => x.Date.Year).Distinct().ForEach(nendo =>
             {
-                string filePath = System.IO.Path.Combine(Holiday.HolidayXmlFolder, string.Concat(nendo.ToString(), i.ToString("00"), ".xml"));
+                // フォルダの作成
+                if (!System.IO.Directory.Exists(Holiday.HolidayXmlFolder))
+                {
+                    System.IO.Directory.CreateDirectory(Holiday.HolidayXmlFolder);
+                }
 
-                // xml から、休日を取得
-                var xDoc = XDocument.Load(filePath);
-                var days = xDoc.Element("days").Elements("day");
+                string filePath = System.IO.Path.Combine(Holiday.HolidayXmlFolder, string.Concat(nendo.ToString(), ".xml"));
 
-                foreach (var day in days.Where(x => (int)x.Element("htype") > 0).Select(x => new Holiday
-                { Date = new DateTime(nendo, i, (int)x.Element("mday")), Name = (string)x.Element("hname") }))
+                // ファイルが存在するなら、処理しない
+                if (System.IO.File.Exists(filePath)) return;
+
+                // 既存のフォーマットに合わせるために、XMLファイルの構造を変更しない
+                var xmlDocument = new System.Xml.XmlDocument();
+                var xmlDeclaration = xmlDocument.CreateXmlDeclaration("1.0", "UTF-8", null);
+                var eleHolidays = xmlDocument.CreateElement("Holidays");
+
+                xmlDocument.AppendChild(xmlDeclaration);
+                xmlDocument.AppendChild(eleHolidays);
+
+                holidays.Where(x => x.Date.Year == nendo).ForEach(y =>
                 {
                     var eleHoliday = xmlDocument.CreateElement("Holiday");
                     var eleDay = xmlDocument.CreateElement("Day");
                     var eleName = xmlDocument.CreateElement("Name");
 
-                    eleDay.InnerText = day.Date.ToString();
-                    eleName.InnerText = day.Name;
+                    eleDay.InnerText = y.Date.ToString();
+                    eleName.InnerText = y.Name;
 
                     eleHoliday.AppendChild(eleDay);
                     eleHoliday.AppendChild(eleName);
-
                     eleHolidays.AppendChild(eleHoliday);
-                }
-            }
+                });
 
-            xmlDocument.Save(createFilePath);
-        }
-
-        /// <summary>
-        /// 休日(月単位)のXMLファイルの削除
-        /// </summary>
-        /// <param name="nendo"></param>
-        static void DeleteXmlHolidayMonth(int nendo)
-        {
-            if (System.IO.Directory.Exists(Holiday.HolidayXmlFolder) == false) return;
-
-            for (int i = 1; i < 13; i++)
-            {
-                string filePath = System.IO.Path.Combine(Holiday.HolidayXmlFolder, string.Concat(nendo, i.ToString("00"), ".xml"));
-                if (System.IO.File.Exists(filePath))
-                {
-                    System.IO.File.Delete(filePath);
-                }
-            }
+                xmlDocument.Save(filePath);
+            });
         }
 
         #endregion
@@ -952,7 +882,7 @@ namespace YayoiCsv
                 //var con = new System.Data.OleDb.OleDbConnection(conString);
                 //var da = new System.Data.OleDb.OleDbDataAdapter("SELECT * FROM [" + System.IO.Path.GetFileName(path) + "]", con);
 
-                
+
                 //da.Fill(dt);
 
                 //if (dt.Columns.Count != 25)
@@ -1087,6 +1017,45 @@ namespace YayoiCsv
 
         #endregion
 
+        #region 仕訳年度を取得
+        /// <summary>
+        /// 仕訳年度を選択できる年度のリストを作成する
+        /// </summary>
+        /// <returns></returns>
+        public static List<string> GetShiwakeNendos()
+        {
+            var list = new List<string>();
+
+            // 仕訳ファイルのXMLを読み込む
+            if (System.IO.Directory.Exists(@"xml\shiwake"))
+            {
+                var dir = new System.IO.DirectoryInfo(@"xml\shiwake");
+                foreach (var file in dir.GetFiles(@"*.xml"))
+                {
+                    int o;
+                    string nendo = file.Name.Replace(".xml", "");
+                    if (int.TryParse(nendo, out o) && nendo.Length == 4)
+                    {
+                        list.Add(nendo);
+                    }
+                }
+            }
+
+            // 前年＋当年は指定できる
+            var date = DateTime.Now;
+            if (!list.Any(x => x.CompareTo(date.Year.ToString()) == 0))
+            {
+                list.Add(date.Year.ToString());
+            }
+            if (!list.Any(x => x.CompareTo((date.Year - 1).ToString()) == 0))
+            {
+                list.Add((date.Year - 1).ToString());
+            }
+
+            return list;
+        }
+        #endregion
+
         #region 仕訳データの保存／読み込み
 
         /// <summary>
@@ -1095,7 +1064,7 @@ namespace YayoiCsv
         /// <param name="dt"></param>
         public static void SaveShiwakeXML()
         {
-            
+
             if (!System.IO.Directory.Exists(@"xml\shiwake"))
             {
                 System.IO.Directory.CreateDirectory(@"xml\shiwake");
@@ -1114,7 +1083,7 @@ namespace YayoiCsv
             Static.ShiwakeDs.ShisanSum.Clear();
             Static.ShiwakeDs.GenkinSuitocho.Clear();
             Static.ShiwakeDs.YokinSuitocho.Clear();
-            
+
             if (System.IO.File.Exists(@"xml\shiwake\" + Static.Nendo.ToString() + ".xml"))
             {
                 Static.ShiwakeDs.Shiwake.ReadXml(@"xml\shiwake\" + Static.Nendo.ToString() + ".xml");

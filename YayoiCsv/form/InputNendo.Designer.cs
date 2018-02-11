@@ -38,14 +38,6 @@
             // 
             this.cmbNendo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbNendo.FormattingEnabled = true;
-            this.cmbNendo.Items.AddRange(new object[] {
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019",
-            "2020"});
             this.cmbNendo.Location = new System.Drawing.Point(119, 12);
             this.cmbNendo.Name = "cmbNendo";
             this.cmbNendo.Size = new System.Drawing.Size(144, 23);

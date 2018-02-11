@@ -16,7 +16,11 @@ namespace YayoiCsv.control
         {
             InitializeComponent();
         }
-
+    
+        /// <summary>
+        /// セルの色を変更する
+        /// </summary>
+        /// <param name="e"></param>
         protected override void OnCellFormatting(DataGridViewCellFormattingEventArgs e)
         {
             base.OnCellFormatting(e);
@@ -28,6 +32,17 @@ namespace YayoiCsv.control
                 {
                     e.CellStyle.ForeColor = Color.Red;
                     e.CellStyle.SelectionForeColor = Color.Red;
+                }
+            }
+            else if (Columns[e.ColumnIndex].Name.IndexOf("Week") >= 0)
+            {
+                if (e.Value.ToString().CompareTo("土") == 0)
+                {
+                    this.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.SkyBlue;
+                }
+                if (e.Value.ToString().CompareTo("日") == 0)
+                {
+                    this.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.LightPink;
                 }
             }
         }

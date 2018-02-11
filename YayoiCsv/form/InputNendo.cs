@@ -3,6 +3,9 @@ using System.Windows.Forms;
 
 namespace YayoiCsv
 {
+    /// <summary>
+    /// 年度を変更するフォームクラス
+    /// </summary>
     public partial class InputNendo : control.FormEx
     {
         /// <summary>
@@ -11,6 +14,19 @@ namespace YayoiCsv
         public InputNendo()
         {
             InitializeComponent();
+
+            // フォームの初期値設定
+            InitializeForm();
+        }
+
+        /// <summary>
+        /// 画面の初期設定
+        /// </summary>
+        void InitializeForm()
+        {
+            // 表示できる年度を設定
+            Static.GetShiwakeNendos().ForEach(x => cmbNendo.Items.Add(x));
+            cmbNendo.SelectedItem = Static.Nendo.ToString();
         }
 
         /// <summary>
