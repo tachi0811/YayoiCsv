@@ -60,7 +60,7 @@ namespace YayoiCsv
             {
                 while (Static.Nendo == date.Year)
                 {
-                    // 休日は、含む
+                    // 土曜日、日曜日、祝日を出力
                     int week = (int)date.DayOfWeek;
                     if (!Static.HolidayList.Any(x => x.Date == date) && !(week == 0 || week == 6))
                     {
@@ -95,7 +95,7 @@ namespace YayoiCsv
                 {
                     if (ctl is CheckBox)
                     {
-                        if( (ctl as CheckBox).Checked)
+                        if ((ctl as CheckBox).Checked)
                         {
                             isChecked = true;
                             break;
@@ -111,7 +111,7 @@ namespace YayoiCsv
 
                 while (Static.Nendo == date.Year)
                 {
-                    int week = (int)date.DayOfWeek;
+
                     if ((chkYobiNichi.Checked && date.DayOfWeek == DayOfWeek.Sunday) ||
                         (chkYobiGetsu.Checked && date.DayOfWeek == DayOfWeek.Monday) ||
                         (chkYobiKa.Checked && date.DayOfWeek == DayOfWeek.Tuesday) ||
@@ -139,6 +139,80 @@ namespace YayoiCsv
 
                     date = date.AddDays(1);
                 }
+            }
+            else if (rdoTsuki.Checked)
+            {
+
+                bool isChecked = false;
+                foreach (Control ctl in grpTsuki.Controls)
+                {
+                    if (ctl is CheckBox)
+                    {
+                        if ((ctl as CheckBox).Checked)
+                        {
+                            isChecked = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (!isChecked)
+                {
+                    MessageBox.Show("月が１つも指定されていません。月を指定してください。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+
+                while (Static.Nendo == date.Year)
+                {
+
+                    // 土曜日、日曜日、祝日は読み飛ばし
+                    if (Static.HolidayList.Any(x => x.Date == date))
+                    {
+                        date = date.AddDays(1);
+                        continue;
+                    }
+
+                    // 土日も外す
+                    int week = (int)date.DayOfWeek;
+                    if (week == 0 || week == 6)
+                    {
+                        date = date.AddDays(1);
+                        continue;
+                    }
+
+                    if ((chkTsuki01.Checked && date.Month == 1) ||
+                        (chkTsuki02.Checked && date.Month == 2) ||
+                        (chkTsuki03.Checked && date.Month == 3) ||
+                        (chkTsuki04.Checked && date.Month == 4) ||
+                        (chkTsuki05.Checked && date.Month == 5) ||
+                        (chkTsuki06.Checked && date.Month == 6) ||
+                        (chkTsuki07.Checked && date.Month == 7) ||
+                        (chkTsuki08.Checked && date.Month == 8) ||
+                        (chkTsuki09.Checked && date.Month == 9) ||
+                        (chkTsuki10.Checked && date.Month == 10) ||
+                        (chkTsuki11.Checked && date.Month == 11) ||
+                        (chkTsuki12.Checked && date.Month == 12) )
+                    {
+                        if (clickType == ClickType.YayoiCsv)
+                        {
+                            // 弥生で取込めるフォーマット
+                            sb.AppendLine(CreateYayoiCSV(date));
+                        }
+                        else if (clickType == ClickType.Csv)
+                        {
+                            // 日付,科目,補助科目,金額,摘要
+                            sb.AppendLine(CreateCSV(date));
+                        }
+                        else
+                        {
+                            // 経費を足す
+                            AddShiwake(date);
+                        }
+                    }
+
+                    date = date.AddDays(1);
+                }
+
             }
             else
             {
